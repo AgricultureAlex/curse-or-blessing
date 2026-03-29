@@ -493,7 +493,7 @@ export class QuizDataSource
     //   3  →  scene 0  (Try again...)
     //   4  →  scene 0  (Almost 50/50)
     //   5  →  scene 0  (Did you guess?)
-    //   6  →  scene 1  (Oh the prosody!)
+    //   6  →  scene 1  (Better than chance)
     //   7  →  scene 1  (Cin cin!)
     //   8  →  scene 2  (Seasoned Traveler)
     //   9  →  scene 2  (Master Linguist)
@@ -1060,7 +1060,7 @@ export class QuizDataSource
         "87": 0,
       },
       {
-        text: "Oh the prosody!\n{answersMatched} / {questionsAsked}",
+        text: "Better than chance\n{answersMatched} / {questionsAsked}",
         scene: 1,
         ceil: 6,
         "0": 1,
