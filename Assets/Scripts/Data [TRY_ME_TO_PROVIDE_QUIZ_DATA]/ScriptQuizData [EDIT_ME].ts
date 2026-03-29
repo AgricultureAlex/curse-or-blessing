@@ -229,32 +229,32 @@ export class QuizDataSource
 
       // ── HINDI ─────────────────────────────────────────────────────────────────
       {
-        question: "Jeete raho\n(Hindi)",
+        question: "जीते रहो\nJeete raho\n(Hindi)",
         answers: ["Curse", "Blessing"],
         correctIdx: 1,
       },
       {
-        question: "Harami\n(Hindi)",
+        question: "हरामी\nHarami\n(Hindi)",
         answers: ["Curse", "Blessing"],
         correctIdx: 0,
       },
       {
-        question: "Khush raho\n(Hindi)",
+        question: "खुश रहो\nKhush raho\n(Hindi)",
         answers: ["Curse", "Blessing"],
         correctIdx: 1,
       },
       {
-        question: "Kutte\n(Hindi)",
+        question: "कुत्ते\nKutte\n(Hindi)",
         answers: ["Curse", "Blessing"],
         correctIdx: 0,
       },
       {
-        question: "Sada sukhi raho\n(Hindi)",
+        question: "सदा सुखी रहो\nSada sukhi raho\n(Hindi)",
         answers: ["Curse", "Blessing"],
         correctIdx: 1,
       },
       {
-        question: "Saala\n(Hindi)",
+        question: "साला\nSaala\n(Hindi)",
         answers: ["Curse", "Blessing"],
         correctIdx: 0,
       },
@@ -293,192 +293,192 @@ export class QuizDataSource
 
       // ── JAPANESE ──────────────────────────────────────────────────────────────
       {
-        question: "Oshiawase ni\n(Japanese)",
+        question: "お幸せに\nOshiawase ni\n(Japanese)",
         answers: ["Curse", "Blessing"],
         correctIdx: 1,
       },
       {
-        question: "Kuso\n(Japanese)",
+        question: "くそ\nKuso\n(Japanese)",
         answers: ["Curse", "Blessing"],
         correctIdx: 0,
       },
       {
-        question: "Suenagaku oshiawase ni\n(Japanese)",
+        question: "末永くお幸せに\nSuenagaku oshiawase ni\n(Japanese)",
         answers: ["Curse", "Blessing"],
         correctIdx: 1,
       },
       {
-        question: "Shine\n(Japanese)",
+        question: "死ね\nShine\n(Japanese)",
         answers: ["Curse", "Blessing"],
         correctIdx: 0,
       },
       {
-        question: "Buun choukyuu\n(Japanese)",
+        question: "武運長久\nBuun choukyuu\n(Japanese)",
         answers: ["Curse", "Blessing"],
         correctIdx: 1,
       },
       {
-        question: "Kono yarou\n(Japanese)",
+        question: "このやろう\nKono yarou\n(Japanese)",
         answers: ["Curse", "Blessing"],
         correctIdx: 0,
       },
 
       // ── THAI ──────────────────────────────────────────────────────────────────
       {
-        question: "Chok dee\n(Thai)",
+        question: "โชคดี\nChok dee\n(Thai)",
         answers: ["Curse", "Blessing"],
         correctIdx: 1,
       },
       {
-        question: "Hia\n(Thai)",
+        question: "เหี้ย\nHia\n(Thai)",
         answers: ["Curse", "Blessing"],
         correctIdx: 0,
       },
       {
-        question: "Kho hai mee khwam suk\n(Thai)",
+        question: "ขอให้มีความสุข\nKho hai mee khwam suk\n(Thai)",
         answers: ["Curse", "Blessing"],
         correctIdx: 1,
       },
       {
-        question: "Khwai\n(Thai)",
+        question: "ควาย\nKhwai\n(Thai)",
         answers: ["Curse", "Blessing"],
         correctIdx: 0,
       },
       {
-        question: "Sawatdi pi mai\n(Thai)",
+        question: "สวัสดีปีใหม่\nSawatdi pi mai\n(Thai)",
         answers: ["Curse", "Blessing"],
         correctIdx: 1,
       },
       {
-        question: "Pai tai\n(Thai)",
+        question: "ไปตาย\nPai tai\n(Thai)",
         answers: ["Curse", "Blessing"],
         correctIdx: 0,
       },
 
       // ── KOREAN ────────────────────────────────────────────────────────────────
       {
-        question: "Bok mani badeuseyo\n(Korean)",
+        question: "복 많이 받으세요\nBok mani badeuseyo\n(Korean)",
         answers: ["Curse", "Blessing"],
         correctIdx: 1,
       },
       {
-        question: "Ssibal\n(Korean)",
+        question: "씨발\nSsibal\n(Korean)",
         answers: ["Curse", "Blessing"],
         correctIdx: 0,
       },
       {
-        question: "Geonganghaseyo\n(Korean)",
+        question: "건강하세요\nGeonganghaseyo\n(Korean)",
         answers: ["Curse", "Blessing"],
         correctIdx: 1,
       },
       {
-        question: "Gaesaekki\n(Korean)",
+        question: "개새끼\nGaesaekki\n(Korean)",
         answers: ["Curse", "Blessing"],
         correctIdx: 0,
       },
       {
-        question: "Haengbokhaseyo\n(Korean)",
+        question: "행복하세요\nHaengbokhaseyo\n(Korean)",
         answers: ["Curse", "Blessing"],
         correctIdx: 1,
       },
       {
-        question: "Kkeojyeo\n(Korean)",
+        question: "꺼져\nKkeojyeo\n(Korean)",
         answers: ["Curse", "Blessing"],
         correctIdx: 0,
       },
 
       // ── AMHARIC ───────────────────────────────────────────────────────────────
       {
-        question: "Igziabher yibarkh\n(Amharic)",
+        question: "እግዚአብሔር ይባርክህ\nIgziabher yibarkh\n(Amharic)",
         answers: ["Curse", "Blessing"],
         correctIdx: 1,
       },
       {
-        question: "Wisha\n(Amharic)",
+        question: "ውሻ\nWisha\n(Amharic)",
         answers: ["Curse", "Blessing"],
         correctIdx: 0,
       },
       {
-        question: "Dehna hun\n(Amharic)",
+        question: "ደህና ሁን\nDehna hun\n(Amharic)",
         answers: ["Curse", "Blessing"],
         correctIdx: 1,
       },
       {
-        question: "Dedeb\n(Amharic)",
+        question: "ደደብ\nDedeb\n(Amharic)",
         answers: ["Curse", "Blessing"],
         correctIdx: 0,
       },
       {
-        question: "Salam yihun\n(Amharic)",
+        question: "ሰላም ይሁን\nSalam yihun\n(Amharic)",
         answers: ["Curse", "Blessing"],
         correctIdx: 1,
       },
       {
-        question: "Hed atfa\n(Amharic)",
+        question: "ሄድ አጥፋ\nHed atfa\n(Amharic)",
         answers: ["Curse", "Blessing"],
         correctIdx: 0,
       },
 
       // ── ARABIC ────────────────────────────────────────────────────────────────
       {
-        question: "Barakallahu fik\n(Arabic)",
+        question: "بارك الله فيك\nBarakallahu fik\n(Arabic)",
         answers: ["Curse", "Blessing"],
         correctIdx: 1,
       },
       {
-        question: "Yikhrib beitak\n(Arabic)",
+        question: "يخرب بيتك\nYikhrib beitak\n(Arabic)",
         answers: ["Curse", "Blessing"],
         correctIdx: 0,
       },
       {
-        question: "Mashallah\n(Arabic)",
+        question: "ما شاء الله\nMashallah\n(Arabic)",
         answers: ["Curse", "Blessing"],
         correctIdx: 1,
       },
       {
-        question: "Himar\n(Arabic)",
+        question: "حمار\nHimar\n(Arabic)",
         answers: ["Curse", "Blessing"],
         correctIdx: 0,
       },
       {
-        question: "Allah yahfazak\n(Arabic)",
+        question: "الله يحفظك\nAllah yahfazak\n(Arabic)",
         answers: ["Curse", "Blessing"],
         correctIdx: 1,
       },
       {
-        question: "Ibn el sharmouta\n(Arabic)",
+        question: "ابن الشرموطة\nIbn el sharmouta\n(Arabic)",
         answers: ["Curse", "Blessing"],
         correctIdx: 0,
       },
 
       // ── BENGALI ───────────────────────────────────────────────────────────────
       {
-        question: "Dirghajibi hao\n(Bengali)",
+        question: "দীর্ঘজীবী হও\nDirghajibi hao\n(Bengali)",
         answers: ["Curse", "Blessing"],
         correctIdx: 1,
       },
       {
-        question: "Kuttar bachcha\n(Bengali)",
+        question: "কুত্তার বাচ্চা\nKuttar bachcha\n(Bengali)",
         answers: ["Curse", "Blessing"],
         correctIdx: 0,
       },
       {
-        question: "Sukhi thako\n(Bengali)",
+        question: "সুখী থাকো\nSukhi thako\n(Bengali)",
         answers: ["Curse", "Blessing"],
         correctIdx: 1,
       },
       {
-        question: "Haramjada\n(Bengali)",
+        question: "হারামজাদা\nHaramjada\n(Bengali)",
         answers: ["Curse", "Blessing"],
         correctIdx: 0,
       },
       {
-        question: "Shubhokamona\n(Bengali)",
+        question: "শুভকামনা\nShubhokamona\n(Bengali)",
         answers: ["Curse", "Blessing"],
         correctIdx: 1,
       },
       {
-        question: "Gadha\n(Bengali)",
+        question: "গাধা\nGadha\n(Bengali)",
         answers: ["Curse", "Blessing"],
         correctIdx: 0,
       },
