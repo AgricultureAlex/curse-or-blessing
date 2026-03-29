@@ -12,6 +12,7 @@
     - !<own> 2ef9fc81-74ee-41e7-baed-a69b0f335401
     - !<own> dbb0b686-8364-429a-b83c-b90667a1cd33
     - !<own> 8ad5c7b0-8b34-461e-9b52-f9f46775c069
+    - !<own> fb7d130e-dd9b-4526-9f21-3a95c3f2ce78
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       - id: 1
@@ -69,21 +70,6 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
-- !<SceneObject/017890c5-6af6-4ee0-85da-3ae61fa6f6ff>
-  PrefabRemaps:
-    []
-  Name: Lifecycle
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 5250fdfb-5d16-4c7c-a127-20ea9eaf5c5f
 - !<SceneObject/01c9b0c0-8a0e-4f28-84e1-84df98fc32a2>
   PrefabRemaps:
     []
@@ -229,6 +215,30 @@
   MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
   RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
   DevicePropertiesSource: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/0d4d8c3a-ea5a-4f0e-bc49-43d92611ea3d>
+  PrefabRemaps:
+    []
+  Name: QuestionView
+  Enabled: true
+  ScriptAsset: !<reference> 0a49337c-20d3-4fa3-98b0-1dd03d19da46
+  ScriptInputsDefault:
+    fadeInDuration: true
+    fadeOutDuration: true
+    linesThreshold: true
+    lineLengthThreshold: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      fadeInDuration: 0.300000
+      fadeOutDuration: 0.300000
+      biggerText: !<reference.Text> 2116ab08-6775-4d05-8d5e-d35de62d7972
+      smallerText: !<reference.Text> 2116ab08-6775-4d05-8d5e-d35de62d7972
+      linesThreshold: 4
+      lineLengthThreshold: 20
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/0d5ebcb5-546a-4121-a359-ce18c067011e>
   PrefabRemaps:
     []
@@ -532,6 +542,39 @@
     bottom: 0.000000
     right: 0.000000
     top: -0.995764
+- !<ScreenTransform/14bd94f0-4eed-48b8-bb89-74e7b536b262>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
 - !<SceneObject/15559074-77e2-4242-b7ab-b96f149c6e13>
   PrefabRemaps:
     []
@@ -565,6 +608,21 @@
     - !<own> 5b2f6231-b4fc-4ba2-84d5-810fce7205d4
     - !<own> cd59a18c-8355-4e83-955d-d21a85871a1b
     - !<own> 486f47f1-d85a-4b80-b096-b075d0680324
+- !<SceneObject/1608b859-de61-474c-9561-9c53e7d03b33>
+  PrefabRemaps:
+    []
+  Name: Lifecycle
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ffd06fba-279c-465d-a8da-9ac413f2b95c
 - !<ScriptComponent/1623af0d-fa3f-4d33-8372-17e6462947e5>
   PrefabRemaps:
     []
@@ -1016,6 +1074,23 @@
     - !<own> 5e3c1b2a-0f5f-4345-b179-0aebc970d12f
     - !<own> a66c78fd-5996-4145-8f4c-098243ae269e
     - !<own> 2d9d8ac3-e29d-4571-989b-cddac076e128
+- !<AudioComponent/1d990328-8e9b-499c-945b-9719e8a05de6>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<Image/1ec1e7ca-72b7-4ee6-87ac-5ab919cb6909>
   PrefabRemaps:
     []
@@ -1130,6 +1205,89 @@
     ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
     LetterSpacing: 0.000000
     LineSpacing: 1.200000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<Text/2116ab08-6775-4d05-8d5e-d35de62d7972>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: Text
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48.000000
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  FontWeight: 400
+  Italic: false
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
     CapitalizationOverride: None
   DepthTest: false
   TwoSided: false
@@ -2631,7 +2789,7 @@
 - !<SceneObject/2ef9fc81-74ee-41e7-baed-a69b0f335401>
   PrefabRemaps:
     []
-  Name: "Yes-No Example - Meditation  [TRY_ME]"
+  Name: Blessing or Curse Quiz
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
@@ -2640,14 +2798,16 @@
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
-    - !<own> 577478b1-7d01-4b7c-b424-958e2efaaeea
+    - !<own> 5a23f6e3-5f93-457c-bbe6-ffa44a9b437b
     - !<own> 49d86161-dde6-442e-9501-c681123d23cc
     - !<own> 799fa232-65c8-4972-8c3d-a51ffb19a0cc
-    - !<own> 017890c5-6af6-4ee0-85da-3ae61fa6f6ff
+    - !<own> a19d3ecf-1612-49a2-8818-6adaeab87558
+    - !<own> 1608b859-de61-474c-9561-9c53e7d03b33
     - !<own> 23c8db11-ef21-48a0-ae8e-beb769552166
     - !<own> 63dc26cf-6e13-4b27-b0ba-22aa00d6a5be
     - !<own> 41a8ae65-574f-4c55-b6ae-1db795c16fa9
     - !<own> 86f8c491-b902-4140-8219-3ba21f87f46f
+    - !<own> bfa91e4f-a9d1-40ae-a9db-b37397f6a55d
   Components:
     []
 - !<ScriptComponent/2f0eb6fe-05f2-4b91-b8f5-0c7d7331142a>
@@ -3597,55 +3757,6 @@
   ScriptTypes:
     "":
       {}
-- !<ScriptComponent/5250fdfb-5d16-4c7c-a127-20ea9eaf5c5f>
-  PrefabRemaps:
-    []
-  Name: Lifecycle
-  Enabled: true
-  ScriptAsset: !<reference> 20469489-a28d-447b-aba2-aa9788dedcf0
-  ScriptInputsDefault:
-    onIntroShown: true
-    onQuizDataAvailable: true
-    onIntroHidden: true
-    onQuestionsShown: true
-    onNextQuestion: true
-    onQuestionsHidden: true
-    onResultShown: true
-    onResultHidden: true
-    onReset: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      suppressScriptErrors: true
-      onIntroShown:
-        []
-      onQuizDataAvailable:
-        []
-      onIntroHidden:
-        []
-      onQuestionsShown:
-        []
-      onNextQuestion:
-        []
-      onAnswer:
-        - kind: Script method
-          customTrigger: ""
-          behaviorScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-          script: !<reference.ScriptComponent> 5b2f6231-b4fc-4ba2-84d5-810fce7205d4
-          methodName: hide
-          onApi: false
-      onQuestionsHidden:
-        []
-      onResultShown:
-        []
-      onResultHidden:
-        []
-      onReset:
-        []
-  ScriptTypes:
-    "":
-      {}
 - !<SceneObject/538f123d-4f35-461e-ac76-9e43d99e0301>
   PrefabRemaps:
     []
@@ -3686,21 +3797,6 @@
     - !<own> 10d1cb43-b8c5-44b0-9cf9-9f17460ae00d
   Components:
     - !<own> dba4fc48-276d-4c31-a735-535163fd03a5
-- !<SceneObject/577478b1-7d01-4b7c-b424-958e2efaaeea>
-  PrefabRemaps:
-    []
-  Name: "Meditation Quiz data [EDIT_ME]"
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 859fce10-ba85-48ed-bde7-f3c322138b68
 - !<Image/5935cd40-83d6-4609-814b-3f1e45be1165>
   PrefabRemaps:
     []
@@ -3754,6 +3850,21 @@
     - !<own> b20ca164-69e2-4e3b-9916-0e6793d64fd7
   Components:
     []
+- !<SceneObject/5a23f6e3-5f93-457c-bbe6-ffa44a9b437b>
+  PrefabRemaps:
+    []
+  Name: Blessing or Curse Questions
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8eb0095c-1943-4597-8822-ace8701d58b0
 - !<Image/5a67e96b-4377-4dcc-99d0-46c5ce186a4b>
   PrefabRemaps:
     []
@@ -5468,8 +5579,8 @@
 - !<SceneObject/799fa232-65c8-4972-8c3d-a51ffb19a0cc>
   PrefabRemaps:
     []
-  Name: Questions Controller
-  Enabled: true
+  Name: "(EXAMPLE DON'T USE) Questions Controller"
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -5922,22 +6033,6 @@
   Components:
     - !<own> e76058d0-4861-44f4-9c0b-90484f2d62ed
     - !<own> 50ed14a8-c8ab-4562-81b8-10ffe941f59c
-- !<ScriptComponent/859fce10-ba85-48ed-bde7-f3c322138b68>
-  PrefabRemaps:
-    []
-  Name: Mediatation Quiz Data
-  Enabled: true
-  ScriptAsset: !<reference> f7c41c5b-ea1e-4cea-b69b-b0c3b127211f
-  ScriptInputsDefault:
-    {}
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      {}
-  ScriptTypes:
-    "":
-      {}
 - !<SceneObject/86f8c491-b902-4140-8219-3ba21f87f46f>
   PrefabRemaps:
     []
@@ -6043,6 +6138,22 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<SceneObject/88b1b227-1a1e-4233-8636-eeb5d7af4348>
+  PrefabRemaps:
+    []
+  Name: Translation Display
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c9df7805-a250-4e47-aac6-b4be0bbf912f
+  Components:
+    - !<own> 0d4d8c3a-ea5a-4f0e-bc49-43d92611ea3d
+    - !<own> e0af7dd2-5804-4110-9c2a-89eaf01175f4
 - !<Text/88ecd1b0-218a-4a7b-b7d4-32bd024749b0>
   PrefabRemaps:
     []
@@ -6434,6 +6545,22 @@
   ScriptTypes:
     "":
       {}
+- !<ScriptComponent/8eb0095c-1943-4597-8822-ace8701d58b0>
+  PrefabRemaps:
+    []
+  Name: "ScriptQuizData [EDIT_ME]"
+  Enabled: true
+  ScriptAsset: !<reference> 65269129-9cb2-46b8-b858-cb8fae97f3f4
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<ScriptComponent/8f5dcc31-06f2-491f-8572-9b8f3bc99ab8>
   PrefabRemaps:
     []
@@ -6794,6 +6921,27 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<ScriptComponent/930e4910-2375-40f0-a3a5-21aa8dfed301>
+  PrefabRemaps:
+    []
+  Name: "RandomSliceQuestions [TRY_ME]"
+  Enabled: true
+  ScriptAsset: !<reference> f4789848-164e-420c-ba8e-d03927262cb0
+  ScriptInputsDefault:
+    autonumerate: true
+    questionPrefab: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      questionsPerRound: 10
+      decorationsController: !<reference.ScriptComponent> 39d308dc-5677-4289-9d35-995532c2a436
+      autonumerate: true
+      questionParent: !<reference.SceneObject> a7e11804-2436-48e5-85fa-04c976c15dff
+      questionPrefab: !<reference.ObjectPrefab> a3020ae3-8280-4f88-a92c-909e9d16a7e7
+  ScriptTypes:
+    "":
+      {}
 - !<Text/933de06a-2f98-4f36-9cf2-aba178358d58>
   PrefabRemaps:
     []
@@ -7592,6 +7740,21 @@
   Components:
     - !<own> 2b2eec47-d81d-4c47-85da-7284b0b17150
     - !<own> 6a2b7428-0aa0-4be9-8a7a-df6aed05d104
+- !<SceneObject/a19d3ecf-1612-49a2-8818-6adaeab87558>
+  PrefabRemaps:
+    []
+  Name: "RandomSliceQuestions [TRY_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 930e4910-2375-40f0-a3a5-21aa8dfed301
 - !<ScreenRegionComponent/a1a6f051-d27a-4e9f-93d7-d564962bc7e7>
   PrefabRemaps:
     []
@@ -8322,11 +8485,11 @@
     "":
       answersParent: !<reference.SceneObject> 1cd10614-fcee-4f56-8c2e-4c9df47bc888
       answersPrefab: !<reference.ObjectPrefab> fbac2010-69b1-4f7c-8a4e-476e9c53e061
-      questionSource: !<reference.ScriptComponent> 859fce10-ba85-48ed-bde7-f3c322138b68
-      questionsController: !<reference.ScriptComponent> 2f0eb6fe-05f2-4b91-b8f5-0c7d7331142a
+      questionSource: !<reference.ScriptComponent> 8eb0095c-1943-4597-8822-ace8701d58b0
+      questionsController: !<reference.ScriptComponent> 930e4910-2375-40f0-a3a5-21aa8dfed301
       resultsController: !<reference.ScriptComponent> 8e9cd17a-5e5c-48a2-b0f5-fd3377321750
       stageController: !<MappingBased.AssignableType_1> d96ba6aa-99b7-41f4-bd81-74da8792bb7f
-      lifecycle: !<MappingBased.AssignableType_2> 5250fdfb-5d16-4c7c-a127-20ea9eaf5c5f
+      lifecycle: !<MappingBased.AssignableType_2> ffd06fba-279c-465d-a8da-9ac413f2b95c
       delayBeforeNextQuestion: 0.100000
   ScriptTypes:
     "":
@@ -8455,6 +8618,7 @@
   Children:
     - !<own> a7e11804-2436-48e5-85fa-04c976c15dff
     - !<own> 90335542-853a-4dd7-b6f8-a97431f4512f
+    - !<own> 88b1b227-1a1e-4233-8636-eeb5d7af4348
   Components:
     - !<own> 50013c0a-da84-4a15-a215-a261e65fa4e8
     - !<own> d7d19c95-56ba-4b25-9e04-6db725d07346
@@ -8756,6 +8920,21 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/bfa91e4f-a9d1-40ae-a9db-b37397f6a55d>
+  PrefabRemaps:
+    []
+  Name: Question Audio
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1d990328-8e9b-499c-945b-9719e8a05de6
 - !<SceneObject/bfde70cd-fa90-435e-a78f-c10d2da2b4a2>
   PrefabRemaps:
     []
@@ -9655,6 +9834,22 @@
   ScriptTypes:
     "":
       {}
+- !<SceneObject/c9df7805-a250-4e47-aac6-b4be0bbf912f>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2116ab08-6775-4d05-8d5e-d35de62d7972
+    - !<own> 14bd94f0-4eed-48b8-bb89-74e7b536b262
 - !<SceneObject/ca1eaf80-562f-4927-ad6e-f98a0c67814f>
   PrefabRemaps:
     []
@@ -10758,9 +10953,9 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Text: |-
-    Blessing 😇
+    Happy Words😇
     or
-    Angry Word 😕?
+    Angry Words 😕?
   Editable: false
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
@@ -11225,6 +11420,39 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<ScreenTransform/e0af7dd2-5804-4110-9c2a-89eaf01175f4>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: true
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: false
+  Anchor:
+    left: -0.800000
+    bottom: 0.100000
+    right: 0.800000
+    top: 0.350000
+  Offset:
+    left: 0.016706
+    bottom: 2.469194
+    right: 0.016706
+    top: 2.469194
 - !<SceneObject/e101b29c-92f8-444c-ae90-350ada9e2e3b>
   PrefabRemaps:
     []
@@ -11520,6 +11748,22 @@
     []
   Components:
     - !<own> 5b647a7b-9cf1-41f7-a278-14f824b21212
+- !<ScriptComponent/eecc37ab-115f-4ce0-86c7-72cb609b4485>
+  PrefabRemaps:
+    []
+  Name: "ScriptQuizData [EDIT_ME]"
+  Enabled: true
+  ScriptAsset: !<reference> 65269129-9cb2-46b8-b858-cb8fae97f3f4
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/ef469f70-c8ef-4332-9c43-1407273ffa9e>
   PrefabRemaps:
     []
@@ -11929,6 +12173,21 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<SceneObject/fb7d130e-dd9b-4526-9f21-3a95c3f2ce78>
+  PrefabRemaps:
+    []
+  Name: "ScriptQuizData [EDIT_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> eecc37ab-115f-4ce0-86c7-72cb609b4485
 - !<SceneObject/fc702774-d76d-494b-8de5-5f2d72456288>
   PrefabRemaps:
     []
@@ -12006,3 +12265,49 @@
   ShadowDensity: 1.000000
   Materials:
     - !<reference> 72c11b33-c103-4cac-8b07-833785625371
+- !<ScriptComponent/ffd06fba-279c-465d-a8da-9ac413f2b95c>
+  PrefabRemaps:
+    []
+  Name: Lifecycle
+  Enabled: true
+  ScriptAsset: !<reference> 20469489-a28d-447b-aba2-aa9788dedcf0
+  ScriptInputsDefault:
+    suppressScriptErrors: true
+    onIntroShown: true
+    onQuizDataAvailable: true
+    onIntroHidden: true
+    onQuestionsShown: true
+    onNextQuestion: true
+    onAnswer: true
+    onQuestionsHidden: true
+    onResultShown: true
+    onResultHidden: true
+    onReset: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      suppressScriptErrors: false
+      onIntroShown:
+        []
+      onQuizDataAvailable:
+        []
+      onIntroHidden:
+        []
+      onQuestionsShown:
+        []
+      onNextQuestion:
+        []
+      onAnswer:
+        []
+      onQuestionsHidden:
+        []
+      onResultShown:
+        []
+      onResultHidden:
+        []
+      onReset:
+        []
+  ScriptTypes:
+    "":
+      {}

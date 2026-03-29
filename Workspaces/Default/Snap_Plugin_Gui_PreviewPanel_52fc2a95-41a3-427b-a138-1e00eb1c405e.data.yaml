@@ -1,6 +1,6 @@
 data:
   cameraToMultimedia:
-    - Front: PreviewResources.bundle/Images/Idle/Idle.jpg
+    - Front: PreviewResources.bundle/Video/Idle/Idle.mp4
     - Back: PreviewResources.bundle/Images/World/Beach.jpg
   cameraType: Perspective
   colorSpace: Default

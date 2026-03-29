@@ -1,0 +1,76 @@
+- !<AssetImportMetadata/eb936ad5-0cf1-40f7-ad65-4d057643a1a2>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 52a2439a-7b4b-4baf-9581-604011de8e4e
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 52a2439a-7b4b-4baf-9581-604011de8e4e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> eb1c631f-ed18-4b4c-b9c3-1adf5e03bef9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/eb1c631f-ed18-4b4c-b9c3-1adf5e03bef9>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 7e0b8744-4258-4661-8b57-6c5db36588cb
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    audioComponent: false
+    audioDelay: false
+    questions: false
+    scoreBrackets: false
+    translationDisplay: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - questions:
+        []
+      scoreBrackets:
+        []
+      audioComponent: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      audioDelay: !<float> 0.000000
+      translationDisplay: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"One row per question. Order here is the full pool — RandomSliceQuestions picks a random subset each round."}'
+    - /*
+    - "@typedef QuestionEntry"
+    - '@property {string} question {"hint":"The word or phrase displayed on screen.", "widget":"text_area"}'
+    - '@property {int} correctIdx {"label":"Correct answer: 0 = Curse, 1 = Blessing", "hint":"0 = Curse (tilt right / NO)   1 = Blessing (tilt left / YES)"}'
+    - '@property {string} translation {"hint":"Translation or meaning shown after the player answers. Leave empty to skip.", "widget":"text_area"}'
+    - '@property {Asset.AudioTrackAsset} audioTrack {"hint":"Pronunciation audio clip for this question. Leave empty to skip audio."}'
+    - "*/"
+    - "// @input QuestionEntry[] questions"
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"Score brackets in ascending maxScore order. The lowest bracket whose maxScore >= score is shown."}'
+    - /*
+    - "@typedef ScoreBracket"
+    - '@property {string} text {"hint":"Result text shown on screen. Use {answersMatched} and {questionsAsked} for live numbers.", "widget":"text_area"}'
+    - '@property {int} scene {"hint":"Which result prefab slot to activate in ResultsController (0-based index)."}'
+    - '@property {int} maxScore {"hint":"Upper score limit for this bracket. Use 1000 for the top bracket."}'
+    - "*/"
+    - "// @input ScoreBracket[] scoreBrackets"
+    - '// @ui {"widget":"separator"}'
+    - '// @input Component.AudioComponent audioComponent {"hint":"AudioComponent used to play question audio. Add it to this same SceneObject."}'
+    - '// @input float audioDelay = "0" {"hint":"Seconds to wait after the question appears before the audio plays. 0 = immediate."}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input Component.ScriptComponent translationDisplay {"hint":"A SceneObject with QuestionView.ts (or any IFadeText script) that displays the translation after each answer."}'

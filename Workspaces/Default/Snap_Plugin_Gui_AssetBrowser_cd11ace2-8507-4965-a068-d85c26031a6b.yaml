@@ -67,13 +67,13 @@ CollapsedEntities:
       - "Resources/Prefabs/Result Prefabs [TRY_ME_IN_ResultsController]/Resources/Textures"
       - "Resources/Textures [EDIT_ME]/Echopark.hdr"
       - Scripts/Answer Picker
-      - "Scripts/Data [TRY_ME_TO_PROVIDE_QUIZ_DATA]"
+      - "Scripts/Data [TRY_ME_TO_PROVIDE_QUIZ_DATA]/QuestionTableData.ts"
       - "Scripts/Data [TRY_ME_TO_PROVIDE_QUIZ_DATA]/ScriptQuizData [EDIT_ME].ts"
       - "Scripts/Declarations [Look here for scripts API]"
       - "Scripts/Decorations [TRY_ME]"
       - Scripts/Modules
-      - Scripts/QuestionAudioPlayer.ts
       - Scripts/View
       - TweenManager.lspkg
       - TweenManager.lspkg/package.native
+      - Untitled TypeScript.ts
   options: 4
