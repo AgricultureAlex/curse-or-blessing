@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/3219c272-a7f7-4e00-9ee0-b9c0804d652f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 2649c6e1-108d-4205-8c77-8e0aea0db35e
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 2649c6e1-108d-4205-8c77-8e0aea0db35e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> a77ff593-04ee-4155-889c-e46b883240e4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/a77ff593-04ee-4155-889c-e46b883240e4>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: d86403bc-552e-48a2-9b23-c6dc7128840d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    debug: false
+    decorations: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - decorations:
+        []
+      debug: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - /*
+    - "@typedef Stage"
+    - "@property {SceneObject[]} decorations"
+    - "*/"
+    - "// @input Stage[] decorations"
+    - // @input bool debug

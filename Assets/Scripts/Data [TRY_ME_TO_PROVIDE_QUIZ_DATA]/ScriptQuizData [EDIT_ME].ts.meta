@@ -1,0 +1,45 @@
+- !<AssetImportMetadata/511b7c2e-de80-4004-b4ae-4965d9d37dbe>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 65269129-9cb2-46b8-b858-cb8fae97f3f4
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 65269129-9cb2-46b8-b858-cb8fae97f3f4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> db7c84c5-3ce1-4e7e-b9ec-4733743bf90a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/db7c84c5-3ce1-4e7e-b9ec-4733743bf90a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 96f6728c-9fcb-405b-acea-89b10b1a0b24
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"Blessing or Curse? — Players tilt their head YES (left) for Blessing, NO (right) for Curse. Edit this script to add, remove, or reorder questions and adjust the score brackets in results."}'

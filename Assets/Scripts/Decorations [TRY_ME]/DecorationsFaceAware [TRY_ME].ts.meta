@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/f4374a75-301f-46c9-9646-de0835bd4c94>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 49ccef52-5018-4821-9a2c-e75d2eb0bc19
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 49ccef52-5018-4821-9a2c-e75d2eb0bc19
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 153cfcbf-630d-4c04-97f1-3203004d08fc
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/153cfcbf-630d-4c04-97f1-3203004d08fc>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 6ee42553-8e05-40a6-91ae-94ae70fe61ed
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    debug: false
+    decorations: false
+    findFaceHint: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - findFaceHint: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      decorations:
+        []
+      debug: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.ScriptComponent findFaceHint
+    - /*
+    - "@typedef Stage"
+    - "@property {SceneObject[]} decorations"
+    - "@property {SceneObject[]} noFaceDecorations"
+    - "*/"
+    - "// @input Stage[] decorations"
+    - // @input bool debug

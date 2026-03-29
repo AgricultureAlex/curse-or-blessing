@@ -1,0 +1,60 @@
+- !<AssetImportMetadata/a70ad893-731e-4768-900a-3cbb9a921283>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 0a49337c-20d3-4fa3-98b0-1dd03d19da46
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 0a49337c-20d3-4fa3-98b0-1dd03d19da46
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 3a574529-f582-4d77-87fb-76bcc9913364
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/3a574529-f582-4d77-87fb-76bcc9913364>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b4d0a70f-e8a0-408e-a96a-f933094ef2c2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    biggerText: false
+    fadeInDuration: false
+    fadeOutDuration: false
+    lineLengthThreshold: false
+    linesThreshold: false
+    smallerText: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - fadeInDuration: 0.300000
+      fadeOutDuration: 0.300000
+      biggerText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      smallerText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      linesThreshold: 4
+      lineLengthThreshold: 20
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input float fadeInDuration = "0.3"'
+    - '// @input float fadeOutDuration = "0.3"'
+    - // @input Component.Text biggerText
+    - // @input Component.Text smallerText
+    - '// @ui {"widget":"label", "label":"Thresholds for using smaller text"}'
+    - '// @input int linesThreshold = "4"'
+    - '// @input int lineLengthThreshold = "20"'

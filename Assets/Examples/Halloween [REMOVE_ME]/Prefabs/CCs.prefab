@@ -1,0 +1,275 @@
+- !<ObjectPrefab/84fa950b-9b7d-4c47-80aa-d687ac697fe6>
+  PackagePath: ""
+  objects:
+    - !<own> c545c901-4067-49d7-97fd-c592e7a81030
+  LazyLoading: false
+  RetainAssets: true
+- !<PostEffectVisual/01885aae-2c76-47f8-ba82-b982b9733d00>
+  PrefabRemaps:
+    []
+  Name: Post Effect
+  Enabled: true
+  RenderOrder: 14
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9acefce2-ba2a-40a4-aa85-d4628a4a6f30
+- !<PostEffectVisual/2a91621d-74aa-4daf-85b9-8ac8579a9f04>
+  PrefabRemaps:
+    []
+  Name: Post Effect
+  Enabled: true
+  RenderOrder: 9
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b058b0d1-a1db-47d2-8dc2-1f486ab75ab7
+- !<PostEffectVisual/3000bcf4-ea07-491b-b557-7d0a5d8ac941>
+  PrefabRemaps:
+    []
+  Name: Post Effect
+  Enabled: true
+  RenderOrder: 12
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 178e2058-ea8d-4264-b3bd-720693013001
+- !<SceneObject/422bbe76-91e0-4e01-a364-59bb7fa78f1e>
+  PrefabRemaps:
+    []
+  Name: CC-clown
+  Enabled: false
+  Layers: 16
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3000bcf4-ea07-491b-b557-7d0a5d8ac941
+- !<PostEffectVisual/49675744-2ea7-4ee2-969d-d2b4c57faeae>
+  PrefabRemaps:
+    []
+  Name: Post Effect
+  Enabled: true
+  RenderOrder: 11
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a2027f4f-ca35-4a88-8b03-a5bde68dfffa
+- !<PostEffectVisual/49cb9198-b73d-49dc-b4d3-a213cf05787b>
+  PrefabRemaps:
+    []
+  Name: Post Effect
+  Enabled: true
+  RenderOrder: 13
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 16bf6828-f159-43ef-bd03-a82d4bb1c1ae
+- !<SceneObject/5f3b2bbd-fbaa-48c3-a9cb-9da05466653d>
+  PrefabRemaps:
+    []
+  Name: noise
+  Enabled: true
+  Layers: 16
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> eb6dbf04-a58d-4f8d-b55f-6776768c5d91
+- !<SceneObject/743bd5c5-7f3c-4c60-b2dd-943f0f15ad49>
+  PrefabRemaps:
+    []
+  Name: CC
+  Enabled: true
+  Layers: 16
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> dd583654-8743-48d4-a392-a2780d1cc202
+    - !<own> eafe0927-d4bb-4666-b240-5a1db4c6a3b2
+    - !<own> 8d31df25-c69c-429f-9180-56f6da450647
+    - !<own> d03101c1-da9a-419d-8b22-33e274daf9ea
+    - !<own> 422bbe76-91e0-4e01-a364-59bb7fa78f1e
+    - !<own> ea7fc231-6680-43fe-b7a9-3705c3cf9797
+    - !<own> 9a865a0f-4d42-4759-a815-5b5a37da8656
+  Components:
+    []
+- !<SceneObject/8d31df25-c69c-429f-9180-56f6da450647>
+  PrefabRemaps:
+    []
+  Name: CC-skull
+  Enabled: false
+  Layers: 16
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c1d27dac-d131-4b78-bf99-fbaf41ce1552
+- !<SceneObject/9a865a0f-4d42-4759-a815-5b5a37da8656>
+  PrefabRemaps:
+    []
+  Name: CC-frank
+  Enabled: false
+  Layers: 16
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 01885aae-2c76-47f8-ba82-b982b9733d00
+- !<PostEffectVisual/c1d27dac-d131-4b78-bf99-fbaf41ce1552>
+  PrefabRemaps:
+    []
+  Name: Post Effect
+  Enabled: true
+  RenderOrder: 10
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> fa1c1f75-5b77-4981-92ac-6121a1fc0ed2
+- !<SceneObject/c545c901-4067-49d7-97fd-c592e7a81030>
+  PrefabRemaps:
+    []
+  Name: root
+  Enabled: false
+  Layers: 16
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 743bd5c5-7f3c-4c60-b2dd-943f0f15ad49
+    - !<own> 5f3b2bbd-fbaa-48c3-a9cb-9da05466653d
+  Components:
+    []
+- !<SceneObject/d03101c1-da9a-419d-8b22-33e274daf9ea>
+  PrefabRemaps:
+    []
+  Name: CC-scarecrow
+  Enabled: false
+  Layers: 16
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 49675744-2ea7-4ee2-969d-d2b4c57faeae
+- !<SceneObject/dd583654-8743-48d4-a392-a2780d1cc202>
+  PrefabRemaps:
+    []
+  Name: CC-intro
+  Enabled: false
+  Layers: 16
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e07a6eea-82f3-4cac-b3f5-f91b09c86115
+- !<PostEffectVisual/e07a6eea-82f3-4cac-b3f5-f91b09c86115>
+  PrefabRemaps:
+    []
+  Name: Post Effect
+  Enabled: true
+  RenderOrder: 8
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 72c11b33-c103-4cac-8b07-833785625371
+- !<SceneObject/ea7fc231-6680-43fe-b7a9-3705c3cf9797>
+  PrefabRemaps:
+    []
+  Name: CC-mummy
+  Enabled: false
+  Layers: 16
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 49cb9198-b73d-49dc-b4d3-a213cf05787b
+- !<SceneObject/eafe0927-d4bb-4666-b240-5a1db4c6a3b2>
+  PrefabRemaps:
+    []
+  Name: CC-questions
+  Enabled: false
+  Layers: 16
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2a91621d-74aa-4daf-85b9-8ac8579a9f04
+- !<PostEffectVisual/eb6dbf04-a58d-4f8d-b55f-6776768c5d91>
+  PrefabRemaps:
+    []
+  Name: ColorBalance
+  Enabled: true
+  RenderOrder: 7
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 24955644-d6e1-4ca7-a6b8-37dfa49b7110

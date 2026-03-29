@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/9cc32931-c76f-407a-8873-bd648b386ecc>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 9f25da7c-8b21-4fe7-b91f-bc8b49bc84dc
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 9f25da7c-8b21-4fe7-b91f-bc8b49bc84dc
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 36992288-69f4-4e6b-ba29-6490c02cf1ce
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/36992288-69f4-4e6b-ba29-6490c02cf1ce>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 6a8d8ea4-b7be-4a38-8744-f11019b0097e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    background: false
+    fadeInDuration: false
+    fadeOutDuration: false
+    text: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - text: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      background: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      fadeInDuration: 0.300000
+      fadeOutDuration: 0.300000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.Text text
+    - // @input Component.Image background
+    - '// @input float fadeInDuration = "0.3"'
+    - '// @input float fadeOutDuration = "0.3"'

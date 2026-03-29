@@ -1,0 +1,65 @@
+- !<AssetImportMetadata/cf827530-da6e-4baf-bb73-9d65e5d3b359>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 26b3b2dd-9a81-40d4-b56c-0c4b37bbedab
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 26b3b2dd-9a81-40d4-b56c-0c4b37bbedab
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 309fbdf7-3d90-44f1-b738-20bc1cf561d7
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/309fbdf7-3d90-44f1-b738-20bc1cf561d7>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: a41bd5a9-c7a9-44d5-b60d-07a4ee336759
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    answersParent: false
+    answersPrefab: false
+    delayBeforeNextQuestion: false
+    lifecycle: false
+    questionSource: false
+    questionsController: false
+    resultsController: false
+    stageController: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - answersParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      answersPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      questionSource: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      questionsController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      resultsController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      stageController: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      lifecycle: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      delayBeforeNextQuestion: !<float> 0.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject answersParent
+    - // @input Asset.ObjectPrefab answersPrefab
+    - // @input Component.ScriptComponent questionSource
+    - // @input Component.ScriptComponent questionsController
+    - // @input Component.ScriptComponent resultsController
+    - // @input AssignableType_1 stageController
+    - // @input AssignableType_2 lifecycle
+    - '// @input float delayBeforeNextQuestion = "0"'

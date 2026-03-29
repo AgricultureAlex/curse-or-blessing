@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/64e7e4b8-85e6-4636-aad9-c9771308ce85>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5ecf3b33-087e-4117-a400-3fa22b818cdf
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5ecf3b33-087e-4117-a400-3fa22b818cdf
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> d21bb020-4608-44e4-a2bc-7bbda279875c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/d21bb020-4608-44e4-a2bc-7bbda279875c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 6d345d82-e91d-4795-ba39-6385386a56e2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    autonumerate: false
+    decorationsController: false
+    questionParent: false
+    questionPrefab: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - decorationsController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      autonumerate: true
+      questionParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      questionPrefab: !<reference.ObjectPrefab> a3020ae3-8280-4f88-a92c-909e9d16a7e7
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.ScriptComponent decorationsController
+    - '// @input bool autonumerate {"hint":"Prepend a line with an index of current question and a total number of questions"}'
+    - // @input SceneObject questionParent
+    - // @input Asset.ObjectPrefab questionPrefab

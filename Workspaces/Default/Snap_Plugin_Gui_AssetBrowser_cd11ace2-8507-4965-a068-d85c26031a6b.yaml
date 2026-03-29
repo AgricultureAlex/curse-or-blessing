@@ -1,0 +1,79 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 73
+    values:
+      - Behavior.lsc
+      - Examples
+      - "Examples/Buttons 1 [REMOVE_ME]"
+      - "Examples/Halloween [REMOVE_ME]"
+      - "Examples/Halloween [REMOVE_ME]/Effects"
+      - "Examples/Halloween [REMOVE_ME]/Effects/Resources/Materials"
+      - "Examples/Halloween [REMOVE_ME]/Effects/Resources/Materials/cc"
+      - "Examples/Halloween [REMOVE_ME]/Effects/Resources/Meshes"
+      - "Examples/Halloween [REMOVE_ME]/Effects/Resources/Shaders"
+      - "Examples/Halloween [REMOVE_ME]/Effects/Resources/Textures"
+      - "Examples/Halloween [REMOVE_ME]/Effects/Resources/Textures/Scratches"
+      - "Examples/Halloween [REMOVE_ME]/Effects/Resources/Textures/Scratches/Scratches.t3d"
+      - "Examples/Halloween [REMOVE_ME]/Effects/Resources/Textures/grain"
+      - "Examples/Halloween [REMOVE_ME]/Effects/Resources/Textures/grain/grain.t3d"
+      - "Examples/Halloween [REMOVE_ME]/Materials"
+      - "Examples/Halloween [REMOVE_ME]/Prefabs"
+      - "Examples/Halloween [REMOVE_ME]/Screen Results"
+      - "Examples/Halloween [REMOVE_ME]/Screen Results/Resources"
+      - "Examples/Halloween [REMOVE_ME]/Screen Results/Resources/Materials"
+      - "Examples/Halloween [REMOVE_ME]/Screen Results/Resources/Shaders"
+      - "Examples/Halloween [REMOVE_ME]/Screen Results/Resources/Textures"
+      - "Examples/Halloween [REMOVE_ME]/Screen Results/Resources/Textures/Result Icon"
+      - "Examples/Halloween [REMOVE_ME]/Scripts"
+      - "Examples/Halloween [REMOVE_ME]/Shaders"
+      - "Examples/Halloween [REMOVE_ME]/Textures"
+      - "Examples/Halloween [REMOVE_ME]/Textures/BG"
+      - "Examples/Halloween [REMOVE_ME]/Textures/CC"
+      - "Examples/Halloween [REMOVE_ME]/Textures/CC 1"
+      - "Examples/Halloween [REMOVE_ME]/Textures/Questions Icon"
+      - "Examples/Halloween [REMOVE_ME]/Textures/Questions Icon 1"
+      - "Examples/Halloween [REMOVE_ME]/Textures/Result Icon"
+      - "Examples/Human body [REMOVE_ME]"
+      - "Examples/Meditation [REMOVE_ME]"
+      - Render Targets
+      - Resources
+      - Resources/Fonts
+      - Resources/Hint_Find_Face
+      - Resources/Hint_Find_Face/Hint_Find_Face.lensanim
+      - Resources/Hint_Tilt_Head_Left_Right
+      - Resources/Hint_Tilt_Head_Left_Right/Head_Tilt_Head_Left_Right.lensanim
+      - "Resources/Materials [EDIT ME]"
+      - Resources/Prefabs
+      - "Resources/Prefabs/Answers Prefabs [TRY_ME_IN_QuizController]/Button prefabs [TRY_ME]/Image"
+      - "Resources/Prefabs/Answers Prefabs [TRY_ME_IN_QuizController]/Button prefabs [TRY_ME]/Regular"
+      - "Resources/Prefabs/Answers Prefabs [TRY_ME_IN_QuizController]/Resources"
+      - "Resources/Prefabs/Answers Prefabs [TRY_ME_IN_QuizController]/Resources/Materials"
+      - "Resources/Prefabs/Answers Prefabs [TRY_ME_IN_QuizController]/Resources/Materials/buttons"
+      - "Resources/Prefabs/Answers Prefabs [TRY_ME_IN_QuizController]/Resources/Shaders"
+      - "Resources/Prefabs/Answers Prefabs [TRY_ME_IN_QuizController]/Resources/Textures/Buttons"
+      - "Resources/Prefabs/Answers Prefabs [TRY_ME_IN_QuizController]/Resources/Textures/Buttons/Image"
+      - "Resources/Prefabs/Answers Prefabs [TRY_ME_IN_QuizController]/Resources/Textures/Buttons/big"
+      - "Resources/Prefabs/Answers Prefabs [TRY_ME_IN_QuizController]/Resources/Textures/Buttons/regular"
+      - "Resources/Prefabs/Answers Prefabs [TRY_ME_IN_QuizController]/Resources/YES and NO/Materials"
+      - "Resources/Prefabs/Answers Prefabs [TRY_ME_IN_QuizController]/Resources/YES and NO/Shaders"
+      - "Resources/Prefabs/Answers Prefabs [TRY_ME_IN_QuizController]/Resources/YES and NO/Textures"
+      - Resources/Prefabs/Reset button/Materials
+      - Resources/Prefabs/Reset button/Shaders
+      - Resources/Prefabs/Reset button/Textures
+      - "Resources/Prefabs/Result Prefabs [TRY_ME_IN_ResultsController]/Resources"
+      - "Resources/Prefabs/Result Prefabs [TRY_ME_IN_ResultsController]/Resources/Materials"
+      - "Resources/Prefabs/Result Prefabs [TRY_ME_IN_ResultsController]/Resources/Shaders"
+      - "Resources/Prefabs/Result Prefabs [TRY_ME_IN_ResultsController]/Resources/Textures"
+      - "Resources/Textures [EDIT_ME]/Echopark.hdr"
+      - Scripts/Answer Picker
+      - "Scripts/Data [TRY_ME_TO_PROVIDE_QUIZ_DATA]"
+      - "Scripts/Data [TRY_ME_TO_PROVIDE_QUIZ_DATA]/ScriptQuizData [EDIT_ME].ts"
+      - "Scripts/Declarations [Look here for scripts API]"
+      - "Scripts/Decorations [TRY_ME]"
+      - Scripts/Modules
+      - Scripts/QuestionAudioPlayer.ts
+      - Scripts/View
+      - TweenManager.lspkg
+      - TweenManager.lspkg/package.native
+  options: 4

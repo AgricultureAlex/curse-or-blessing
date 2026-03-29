@@ -1,0 +1,73 @@
+- !<AssetImportMetadata/e763679c-e137-4a76-967d-d757c30ae900>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> fb4f94b2-06ad-4aa5-9d15-6633cda6661d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> fb4f94b2-06ad-4aa5-9d15-6633cda6661d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 112f3da4-fb48-46c9-b987-08c105eb21f6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/112f3da4-fb48-46c9-b987-08c105eb21f6>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 369b378a-f9d1-4c94-a520-2c4d8b3aea4c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    buttonPressDuration: false
+    head: false
+    headHint: false
+    initialPickDelay: false
+    leftAnswerValue: false
+    leftImage: false
+    minOppositeOpacity: false
+    pickAngleDegrees: false
+    rightAnswerValue: false
+    rightImage: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - pickAngleDegrees: !<float> 15.000000
+      leftImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      rightImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      head: !<reference.Head> 00000000-0000-0000-0000-000000000000
+      leftAnswerValue: 1
+      rightAnswerValue: 0
+      initialPickDelay: !<float> 2.000000
+      headHint: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      buttonPressDuration: 0.300000
+      minOppositeOpacity: 0.500000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input float pickAngleDegrees = "15.0"'
+    - // @input Component.Image leftImage
+    - // @input Component.Image rightImage
+    - // @input Component.Head head
+    - '// @input int leftAnswerValue = "1"'
+    - '// @input int rightAnswerValue = "0"'
+    - '// @input float initialPickDelay = "2"'
+    - // @input Component.ScriptComponent headHint
+    - '// @ui {"widget":"group_start", "label":"Animation"}'
+    - '// @input float buttonPressDuration = "0.3"'
+    - '// @input float minOppositeOpacity = "0.5"'
+    - '// @ui {"widget":"group_end"}'

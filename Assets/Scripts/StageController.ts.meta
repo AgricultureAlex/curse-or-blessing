@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/9f5925d8-2aaf-429e-964d-85c67951ea4b>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 19097735-623c-49a9-8e55-9c2b8f7e476f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 19097735-623c-49a9-8e55-9c2b8f7e476f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 864b5334-68d4-44fc-90e1-993336ae11d7
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/864b5334-68d4-44fc-90e1-993336ae11d7>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 4229cc78-fa62-4013-8087-70549b11724c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    intro: false
+    questions: false
+    results: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - intro: !<reference.SceneObject[]>
+        []
+      questions: !<reference.SceneObject[]>
+        []
+      results: !<reference.SceneObject[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input SceneObject[] intro"
+    - "// @input SceneObject[] questions"
+    - "// @input SceneObject[] results"

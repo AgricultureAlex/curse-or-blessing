@@ -1,0 +1,58 @@
+- !<AssetImportMetadata/d343932b-e745-44c6-8c2a-5024e770b04b>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 03f67462-a3df-4f83-b41f-358504ea41b7
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 03f67462-a3df-4f83-b41f-358504ea41b7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 0534bdeb-49d5-4b79-97d8-7db0d2fbbaec
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/0534bdeb-49d5-4b79-97d8-7db0d2fbbaec>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: ad57f6d3-9d56-4cdf-aaed-70cc9507cda2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    delayBeforeTween: false
+    glowTween: false
+    quizController: false
+    toDisable: false
+    toEnable: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - delayBeforeTween: !<float> 1.000000
+      quizController: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      glowTween: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      toEnable: !<reference.SceneObject[]>
+        []
+      toDisable: !<reference.SceneObject[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input float delayBeforeTween = "1"'
+    - // @input AssignableType_1 quizController
+    - // @input Component.ScriptComponent glowTween
+    - "// @input SceneObject[] toEnable"
+    - "// @input SceneObject[] toDisable"
