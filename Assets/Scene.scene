@@ -2056,6 +2056,21 @@
   MaxDistance: 100.000000
   EnableDirectivityEffect: false
   EnablePositionEffect: false
+- !<SceneObject/2a447712-4c29-4026-92a5-1429112e4387>
+  PrefabRemaps:
+    []
+  Name: AnswerReveal
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b80a5106-0d60-40a9-9a62-083f0504c4c2
 - !<SceneObject/2af5d404-ca32-4c76-8231-4f8ba91bc31b>
   PrefabRemaps:
     []
@@ -2978,6 +2993,9 @@
     - !<own> 41a8ae65-574f-4c55-b6ae-1db795c16fa9
     - !<own> 86f8c491-b902-4140-8219-3ba21f87f46f
     - !<own> bfa91e4f-a9d1-40ae-a9db-b37397f6a55d
+    - !<own> 30d4e0df-c3d4-4e30-940f-afc9901799ca
+    - !<own> dfef196c-736b-4d38-9449-b358650394ed
+    - !<own> 2a447712-4c29-4026-92a5-1429112e4387
   Components:
     []
 - !<ScriptComponent/2f0eb6fe-05f2-4b91-b8f5-0c7d7331142a>
@@ -3041,6 +3059,21 @@
   ScriptTypes:
     "":
       {}
+- !<SceneObject/30d4e0df-c3d4-4e30-940f-afc9901799ca>
+  PrefabRemaps:
+    []
+  Name: Object 0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
 - !<SceneObject/31a1ce2f-79d9-49c4-95c2-e555e262941b>
   PrefabRemaps:
     []
@@ -3722,6 +3755,39 @@
   Transform:
     position: {x: 0.000000, y: 0.000000, z: -1.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<ScreenTransform/40615e09-89ae-453b-bbe0-8882ca15dcc1>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   RawMode: true
@@ -5152,6 +5218,39 @@
     - !<own> a0b092d6-029a-40a4-acb1-477451823436
   Components:
     - !<own> f51980b6-9e5b-4e18-ae22-5760dd053f20
+- !<ScreenTransform/5c9aa966-4305-4d9e-bee0-5b8db4a6a3ac>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -0.995514
+    bottom: -0.529439
+    right: 1.004486
+    top: 1.470561
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
 - !<Image/5d057713-7aaf-4572-b70c-e7540aa43dde>
   PrefabRemaps:
     []
@@ -5968,7 +6067,6 @@
   Enabled: true
   ScriptAsset: !<reference> eee14af9-870e-4195-aebf-e58d54149e92
   ScriptInputsDefault:
-    audioTracks: true
     delaySeconds: true
   ScriptTypesDefault:
     {}
@@ -5976,7 +6074,94 @@
     "":
       audioComponent: !<reference.AudioComponent> 1d990328-8e9b-499c-945b-9719e8a05de6
       audioTracks: !<reference.AudioTrackAsset[]>
-        []
+        - !<reference> 6dc05520-4876-44ae-ae25-81aa938689f7
+        - !<reference> 425deb74-82c4-4e3a-8aa6-b3ee556a9c3f
+        - !<reference> 9b2961a6-d318-48c4-99f0-870bfce4ba4d
+        - !<reference> 218d6201-1d84-4ed4-946d-feea4de13832
+        - !<reference> bc3c0202-ce4d-4412-82a2-cabf19a5f6cc
+        - !<reference> 43e20f0e-a183-4f10-bcb7-3fd21c7a9acd
+        - !<reference> 53a21ee3-a17c-415b-824e-3b92dc2424df
+        - !<reference> c118f7ba-b16c-4327-88c7-b0585c3a6084
+        - !<reference> 0079154a-f76d-4f84-a2a9-ed4236c36e9c
+        - !<reference> 0f8ea5a8-89fa-460b-9409-29e6d6fd7e3a
+        - !<reference> 45ade6cc-b21f-4659-bfa7-c58fb3255011
+        - !<reference> 635d7c02-9c0a-45f3-b511-0b64cab6c8f3
+        - !<reference> aff4022f-6f2c-4abf-8b39-57057df1f64a
+        - !<reference> 0e5df35f-cc2d-428f-b058-d56cc7f9f2e3
+        - !<reference> 98578ecb-7625-4ab6-9694-3a63efd679eb
+        - !<reference> 8f91b155-8092-4dd2-8213-92863a3cc0b3
+        - !<reference> 6424c51c-d9bc-4f75-bda0-9dd721dac978
+        - !<reference> a750d7d4-6f29-4f32-9cca-81a860b2c350
+        - !<reference> d59fb973-e068-4385-8ebe-2e2c64d76886
+        - !<reference> 98504447-e806-4600-97a3-148ee04970dd
+        - !<reference> a643c9fd-3d98-413b-81fe-d621e6b8d6d3
+        - !<reference> 1461927b-9355-426e-a129-d5da196d473b
+        - !<reference> 1b03a856-6b95-4f18-bf1f-a624fad8f5f6
+        - !<reference> c4fd71e8-928a-4b82-baec-c9b1221c9e2c
+        - !<reference> 02697be3-d685-4b0b-839d-c4445a9886e3
+        - !<reference> 76cf0a1f-071c-47a9-97b6-3c34442b6e1f
+        - !<reference> de127aaa-2695-4d50-b4de-6961e67dfbca
+        - !<reference> 37f74e9c-d994-4e22-9bcd-44728494db2c
+        - !<reference> 4aed38b9-0df2-4604-ba44-63e9baa94dc2
+        - !<reference> 0aaf8f5e-8c17-4a14-abbf-81afe605196f
+        - !<reference> 71346907-f437-44e8-8145-76cc6f63a9db
+        - !<reference> 87c67151-110b-48e3-8837-3f6a1ef6e2fc
+        - !<reference> 3a9733df-12fc-449e-980a-6cfcc1d72e8c
+        - !<reference> ababec96-9690-43b2-a8bc-abae20cf9bba
+        - !<reference> 9e698199-4f3b-4bbe-9009-0d983f95ed19
+        - !<reference> 7414cf33-212a-4cfd-9cda-90d19200ced5
+        - !<reference> 37730b85-bddd-4918-8a4d-e3234e8d0583
+        - !<reference> 1eed0db5-8d38-4e02-8f61-65bde8ed444e
+        - !<reference> b39b096a-54c7-48df-83ee-999d6965fc6f
+        - !<reference> 3aaacf84-4452-469a-b98e-618b89e34414
+        - !<reference> a69faab9-cfda-4200-9641-5ab541a93d80
+        - !<reference> 836d65a4-c0ed-42c7-8bbb-826e1be7d849
+        - !<reference> 2c82981f-df30-4e40-8b79-5ea4cfbcf611
+        - !<reference> 0f30dabb-0935-4820-bc40-a9510ba8ade8
+        - !<reference> 4a35abab-f17f-4585-915b-221174eb22b3
+        - !<reference> c738683e-5689-452e-8309-ef3ec98abf1c
+        - !<reference> 983e3a79-d1d9-42d7-b907-5276d019e8ae
+        - !<reference> 8706893c-dfd6-41f1-ab6e-0b4a4e512512
+        - !<reference> 3d3d0283-a0e6-47c1-ac3a-36caf7b4ca0d
+        - !<reference> 3a7dfb0b-3231-4a8d-8da9-58f5c365ba7a
+        - !<reference> fb1ecfe2-1ddf-42f2-94b1-7d72e4d65378
+        - !<reference> dcb58e95-0311-4349-8f0a-9954f735f3ea
+        - !<reference> 5479eba4-c183-47cd-b246-0323dfa7a481
+        - !<reference> a38d6494-812a-4c8f-a96a-79c7371b0432
+        - !<reference> d9850c21-bdcf-4505-9144-0379af5b511c
+        - !<reference> e9289e20-2692-4702-9a87-1bc31c237f39
+        - !<reference> f4834cb0-78d9-46d8-8738-853c16f71c67
+        - !<reference> 51064281-715a-4c38-b0af-ea3f2d1c2997
+        - !<reference> 2503899b-1d54-42fb-a31e-7e71bd83910e
+        - !<reference> 7427afed-a10e-4958-8dc3-7e8670852964
+        - !<reference> e08c9664-0094-4d2d-bd00-a89d7ba39fb3
+        - !<reference> 9c670708-bc92-4450-bd21-41af0481ef5b
+        - !<reference> c5226b34-a673-4885-8416-efabf6444ea5
+        - !<reference> 180bef52-9f81-4c3c-adae-e7c631f0a0f0
+        - !<reference> 7f2eea07-5fae-4998-8b73-db2070caae1e
+        - !<reference> a6b12c8f-4ad3-4a26-bedf-d591ae6fd6bf
+        - !<reference> 1846b233-7669-4775-9cbb-0e371220c4fb
+        - !<reference> 15dc2bce-5952-4cb5-9963-39b5cd4133ac
+        - !<reference> 73a85d6f-6e85-47b7-8742-0f27f762c8fa
+        - !<reference> ae5d2e91-6524-47d1-ba00-286351e85552
+        - !<reference> 26f3a300-f2a0-438b-b046-4beca85f2468
+        - !<reference> ed6d3257-997f-4099-9c57-381c6eec7b5b
+        - !<reference> a606ee3d-9a1f-49a6-9045-04aad832f924
+        - !<reference> 08d052ba-89c4-4efb-94dd-cb2f19ce8076
+        - !<reference> 45a9aa46-e557-4c4a-a205-2718fe9d21d0
+        - !<reference> b0762d68-b32e-4088-910d-4bb65e43d17e
+        - !<reference> ee49e0ed-77d2-486c-89a7-08887b7d3b83
+        - !<reference> 068b412f-8fd8-44ef-a9db-40191ad63b70
+        - !<reference> a4798a56-d3cb-4119-97d4-f6840a21cf0c
+        - !<reference> e5f38081-5ec3-4118-9560-d4e6a1460c14
+        - !<reference> f5b76a08-6fd9-40ee-8ef9-f92c8ab30fce
+        - !<reference> 851cacc4-8783-4649-947f-31dcab4ccf1e
+        - !<reference> 7ca06c87-89a2-4e5d-9031-b907b5bfce8a
+        - !<reference> e8b30d09-632e-44a4-a5d4-3001cefc468c
+        - !<reference> 00b6176d-7d97-41ba-b28e-3d1da2e315d2
+        - !<reference> 07a1a8c8-1ce9-475d-b49e-45c346920821
+        - !<reference> f2c1f654-3270-43cc-b1c0-80dd4e43a6ab
+        - !<reference> 87d0517f-d8ae-4fe7-885a-151c68b14b7e
       delaySeconds: !<float> 0.000000
   ScriptTypes:
     "":
@@ -8240,6 +8425,13 @@
     CapitalizationOverride: None
   DepthTest: false
   TwoSided: false
+- !<ScreenRegionComponent/976fd99a-cba2-4fba-b568-e765e10dce17>
+  PrefabRemaps:
+    []
+  Name: Screen Region
+  Enabled: true
+  ScreenRegionType: FullFrame
+  ResizeWithKeyboard: false
 - !<Text/9778793f-dc73-4495-8f48-74e1e13fbd36>
   PrefabRemaps:
     []
@@ -9564,7 +9756,7 @@
       resultsController: !<reference.ScriptComponent> 8e9cd17a-5e5c-48a2-b0f5-fd3377321750
       stageController: !<MappingBased.AssignableType_1> d96ba6aa-99b7-41f4-bd81-74da8792bb7f
       lifecycle: !<MappingBased.AssignableType_2> ffd06fba-279c-465d-a8da-9ac413f2b95c
-      delayBeforeNextQuestion: 0.100000
+      delayBeforeNextQuestion: 1.500000
   ScriptTypes:
     "":
       {}
@@ -9583,6 +9775,24 @@
     []
   Components:
     - !<own> ace94874-c73b-47e5-b1ed-385c8343a4b9
+- !<ScriptComponent/b80a5106-0d60-40a9-9a62-083f0504c4c2>
+  PrefabRemaps:
+    []
+  Name: AnswerReveal
+  Enabled: true
+  ScriptAsset: !<reference> b34f33e1-abff-4467-ac5b-ae043601e385
+  ScriptInputsDefault:
+    labels: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      questionsController: !<reference.ScriptComponent> 930e4910-2375-40f0-a3a5-21aa8dfed301
+      labels: !<string[]>
+        []
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/b83aa8cd-54cd-4b78-95f1-8cb136a17f35>
   PrefabRemaps:
     []
@@ -10302,6 +10512,22 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<SceneObject/c492b6c5-e0a6-453e-9ab1-d4e632401938>
+  PrefabRemaps:
+    []
+  Name: Answer Text
+  Enabled: true
+  Layers: 8
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5c9aa966-4305-4d9e-bee0-5b8db4a6a3ac
+    - !<own> e0b2f9fe-89d9-4b7b-a84d-4087597eb32f
 - !<AudioComponent/c591525f-ab27-4bb7-a7fe-27427467645f>
   PrefabRemaps:
     []
@@ -12787,6 +13013,22 @@
   ShadowDensity: 1.000000
   Materials:
     - !<reference> 9acefce2-ba2a-40a4-aa85-d4628a4a6f30
+- !<SceneObject/dfef196c-736b-4d38-9449-b358650394ed>
+  PrefabRemaps:
+    []
+  Name: Answer Display Zone
+  Enabled: true
+  Layers: 8
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c492b6c5-e0a6-453e-9ab1-d4e632401938
+  Components:
+    - !<own> 40615e09-89ae-453b-bbe0-8882ca15dcc1
+    - !<own> 976fd99a-cba2-4fba-b568-e765e10dce17
 - !<AudioComponent/e02c596f-6fa2-4925-83e7-e6941b22d84b>
   PrefabRemaps:
     []
@@ -12887,6 +13129,89 @@
     bottom: 2.469194
     right: 0.016706
     top: 2.469194
+- !<Text/e0b2f9fe-89d9-4b7b-a84d-4087597eb32f>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: Text
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48.000000
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  FontWeight: 400
+  Italic: false
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: true
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
 - !<SceneObject/e101b29c-92f8-444c-ae90-350ada9e2e3b>
   PrefabRemaps:
     []
@@ -13859,13 +14184,9 @@
   Enabled: true
   ScriptAsset: !<reference> 20469489-a28d-447b-aba2-aa9788dedcf0
   ScriptInputsDefault:
-    suppressScriptErrors: true
     onIntroShown: true
-    onQuizDataAvailable: true
     onIntroHidden: true
     onQuestionsShown: true
-    onAnswer: true
-    onQuestionsHidden: true
     onResultShown: true
     onResultHidden: true
     onReset: true
@@ -13873,11 +14194,16 @@
     {}
   ScriptInputs:
     "":
-      suppressScriptErrors: false
+      suppressScriptErrors: true
       onIntroShown:
         []
       onQuizDataAvailable:
-        []
+        - kind: Script method
+          customTrigger: ""
+          behaviorScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+          script: !<reference.ScriptComponent> f2863f85-6611-42b4-936e-5c24328bb582
+          methodName: cacheQuizData
+          onApi: false
       onIntroHidden:
         []
       onQuestionsShown:
@@ -13890,9 +14216,19 @@
           methodName: playForQuestion
           onApi: false
       onAnswer:
-        []
+        - kind: Script method
+          customTrigger: ""
+          behaviorScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+          script: !<reference.ScriptComponent> f2863f85-6611-42b4-936e-5c24328bb582
+          methodName: showReveal
+          onApi: false
       onQuestionsHidden:
-        []
+        - kind: Script method
+          customTrigger: ""
+          behaviorScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+          script: !<reference.ScriptComponent> f2863f85-6611-42b4-936e-5c24328bb582
+          methodName: hide
+          onApi: false
       onResultShown:
         []
       onResultHidden:

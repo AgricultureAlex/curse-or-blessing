@@ -13,7 +13,7 @@ metaInfo:
     []
   tags:
     []
-  lensName: Quiz
+  lensName: "Blessing or Curse?"
   lensDescriptors:
     []
   lensApplicableContext:
@@ -27,7 +27,7 @@ metaInfo:
     - Mobile
     - Web
   platformBundlesEnabled: false
-  iconHash: ""
+  iconHash: 6ba938d9987ba46a949b3f8865223ddc
   videoPreviewHash: c193d6959f764c8e03f552e861fbc527
   fromTemplateName: Quiz
   fromTemplateUrl: Lens Studio 5.19.2.26031623

@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 163
+    size: 167
     values:
       - Behavior.lsc
       - Examples
@@ -67,6 +67,7 @@ CollapsedEntities:
       - "Resources/Prefabs/Result Prefabs [TRY_ME_IN_ResultsController]/Resources/Textures"
       - "Resources/Textures [EDIT_ME]/Echopark.hdr"
       - Scripts/Answer Picker
+      - Scripts/AnswerReveal.ts
       - Scripts/Audio
       - "Scripts/Data [TRY_ME_TO_PROVIDE_QUIZ_DATA]"
       - "Scripts/Data [TRY_ME_TO_PROVIDE_QUIZ_DATA]/QuestionTableData.ts"
@@ -77,7 +78,10 @@ CollapsedEntities:
       - "Scripts/RandomSliceQuestions [TRY_ME].ts"
       - TweenManager.lspkg
       - TweenManager.lspkg/package.native
+      - Untitled JavaScript.js
+      - Untitled TypeScript 2.ts
       - Untitled TypeScript.ts
+      - audio
       - audio/q_000.mp3
       - audio/q_001.mp3
       - audio/q_002.mp3

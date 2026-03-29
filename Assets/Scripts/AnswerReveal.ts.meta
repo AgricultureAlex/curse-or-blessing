@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/08a2ca31-d7df-4d46-b456-368ae1303fe4>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> b34f33e1-abff-4467-ac5b-ae043601e385
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> b34f33e1-abff-4467-ac5b-ae043601e385
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 165da094-f78f-4041-a33a-2c545ec11ae5
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/165da094-f78f-4041-a33a-2c545ec11ae5>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 4b35403c-f10a-4767-a2a8-b0778a180837
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    labels: false
+    questionsController: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - questionsController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      labels: !<string[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Component.ScriptComponent questionsController {"hint":"The RandomSliceQuestions component in the scene."}'
+    - '// @input string[] labels {"hint":"Labels indexed by correctIdx. Index 0 = Curse, Index 1 = Blessing."}'
