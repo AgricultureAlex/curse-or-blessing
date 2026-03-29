@@ -37,12 +37,12 @@
   Attachments:
     []
   DefaultScriptInputs:
-    - questionsController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+    - questionsController: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
       labels: !<string[]>
         []
   ScriptTypes:
     -
       {}
   InputLines:
-    - '// @input Component.ScriptComponent questionsController {"hint":"The RandomSliceQuestions component in the scene."}'
+    - // @input AssignableType_1 questionsController
     - '// @input string[] labels {"hint":"Labels indexed by correctIdx. Index 0 = Curse, Index 1 = Blessing."}'

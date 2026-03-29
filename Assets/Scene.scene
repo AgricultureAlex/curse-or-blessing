@@ -13,6 +13,7 @@
     - !<own> dbb0b686-8364-429a-b83c-b90667a1cd33
     - !<own> 8ad5c7b0-8b34-461e-9b52-f9f46775c069
     - !<own> fb7d130e-dd9b-4526-9f21-3a95c3f2ce78
+    - !<own> 381fd8af-4c7d-475e-aa1b-1fd02cec0466
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       - id: 1
@@ -2993,7 +2994,6 @@
     - !<own> 41a8ae65-574f-4c55-b6ae-1db795c16fa9
     - !<own> 86f8c491-b902-4140-8219-3ba21f87f46f
     - !<own> bfa91e4f-a9d1-40ae-a9db-b37397f6a55d
-    - !<own> 30d4e0df-c3d4-4e30-940f-afc9901799ca
     - !<own> dfef196c-736b-4d38-9449-b358650394ed
     - !<own> 2a447712-4c29-4026-92a5-1429112e4387
   Components:
@@ -3059,21 +3059,6 @@
   ScriptTypes:
     "":
       {}
-- !<SceneObject/30d4e0df-c3d4-4e30-940f-afc9901799ca>
-  PrefabRemaps:
-    []
-  Name: Object 0
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    []
 - !<SceneObject/31a1ce2f-79d9-49c4-95c2-e555e262941b>
   PrefabRemaps:
     []
@@ -3431,6 +3416,21 @@
   MaxDistance: 100.000000
   EnableDirectivityEffect: false
   EnablePositionEffect: false
+- !<SceneObject/381fd8af-4c7d-475e-aa1b-1fd02cec0466>
+  PrefabRemaps:
+    []
+  Name: "RandomSliceQuestions [TRY_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5846155d-055b-43ef-b449-136aa9f09bc3
 - !<AudioComponent/39706977-5d5f-463e-8499-2dcf8e48064a>
   PrefabRemaps:
     []
@@ -4373,6 +4373,30 @@
   MaxDistance: 100.000000
   EnableDirectivityEffect: false
   EnablePositionEffect: false
+- !<ScriptComponent/5846155d-055b-43ef-b449-136aa9f09bc3>
+  PrefabRemaps:
+    []
+  Name: "RandomSliceQuestions [TRY_ME]"
+  Enabled: true
+  ScriptAsset: !<reference> f4789848-164e-420c-ba8e-d03927262cb0
+  ScriptInputsDefault:
+    questionsPerRound: true
+    decorationsController: true
+    autonumerate: true
+    questionParent: true
+    questionPrefab: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      questionsPerRound: 5
+      decorationsController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      autonumerate: true
+      questionParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      questionPrefab: !<reference.ObjectPrefab> a3020ae3-8280-4f88-a92c-909e9d16a7e7
+  ScriptTypes:
+    "":
+      {}
 - !<AudioComponent/58883f0b-956a-4c2a-923e-a5ca30d13b77>
   PrefabRemaps:
     []
@@ -9782,14 +9806,15 @@
   Enabled: true
   ScriptAsset: !<reference> b34f33e1-abff-4467-ac5b-ae043601e385
   ScriptInputsDefault:
-    labels: true
+    {}
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
-      questionsController: !<reference.ScriptComponent> 930e4910-2375-40f0-a3a5-21aa8dfed301
+      questionsController: !<MappingBased.AssignableType_1> 930e4910-2375-40f0-a3a5-21aa8dfed301
       labels: !<string[]>
-        []
+        - Curse
+        - Blessing
   ScriptTypes:
     "":
       {}
@@ -14201,7 +14226,7 @@
         - kind: Script method
           customTrigger: ""
           behaviorScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-          script: !<reference.ScriptComponent> f2863f85-6611-42b4-936e-5c24328bb582
+          script: !<reference.ScriptComponent> b80a5106-0d60-40a9-9a62-083f0504c4c2
           methodName: cacheQuizData
           onApi: false
       onIntroHidden:
@@ -14219,14 +14244,14 @@
         - kind: Script method
           customTrigger: ""
           behaviorScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-          script: !<reference.ScriptComponent> f2863f85-6611-42b4-936e-5c24328bb582
+          script: !<reference.ScriptComponent> b80a5106-0d60-40a9-9a62-083f0504c4c2
           methodName: showReveal
           onApi: false
       onQuestionsHidden:
         - kind: Script method
           customTrigger: ""
           behaviorScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-          script: !<reference.ScriptComponent> f2863f85-6611-42b4-936e-5c24328bb582
+          script: !<reference.ScriptComponent> b80a5106-0d60-40a9-9a62-083f0504c4c2
           methodName: hide
           onApi: false
       onResultShown:

@@ -1,9 +1,10 @@
 import { log } from "./Modules/Utils";
+import { RandomSliceQuestions } from "./RandomSliceQuestions [TRY_ME]";
 
 /**
  * Appends the ground-truth label ("Blessing" or "Curse") to the currently
- * displayed question text after the player answers, using the questions
- * controller's appendReveal method. No separate display object needed.
+ * displayed question text after the player answers, using appendReveal on
+ * RandomSliceQuestions. No separate display object needed.
  *
  * Wiring (in the Lifecycle component):
  *   onQuizDataAvailable → Kind: "Script method" → Method: "cacheQuizData"
@@ -18,36 +19,39 @@ import { log } from "./Modules/Utils";
  */
 @component
 export class AnswerReveal extends BaseScriptComponent {
-  @input("Component.ScriptComponent")
-  @hint("The RandomSliceQuestions component in the scene.")
-  private readonly questionsController: ScriptComponent;
+  @input
+  questionsController: RandomSliceQuestions;
 
   @input
   @hint("Labels indexed by correctIdx. Index 0 = Curse, Index 1 = Blessing.")
-  private readonly labels: string[];
+  labels: string[];
 
   private questions: QuestionDescription[] = [];
 
-  onAwake() {}
+  onAwake(): void {
+    if (isNull(this.questionsController)) {
+      log("AnswerReveal: questionsController is not assigned.");
+    }
+  }
 
-  /**
-   * Wire to Lifecycle → onQuizDataAvailable.
-   * Lifecycle passes: (quizData: QuizData)
-   */
-  public cacheQuizData(data: QuizData) {
+  /** Wire to Lifecycle → onQuizDataAvailable. Receives: (quizData: QuizData) */
+  public cacheQuizData(data: QuizData): void {
     this.questions = data.questions;
   }
 
-  /**
-   * Wire to Lifecycle → onAnswer.
-   * Lifecycle passes: (isCorrect: boolean|null, answerIndex: number, questionIndex: number, questionViewIndex: number)
-   */
+  /** Wire to Lifecycle → onAnswer.
+   *  Receives: (isCorrect: boolean|null, answerIndex: number, questionIndex: number, questionViewIndex: number) */
   public showReveal(
     _isCorrect: boolean | null,
     _answerIndex: number,
     questionIndex: number,
     _questionViewIndex: number,
-  ) {
+  ): void {
+    if (isNull(this.questionsController)) {
+      log("AnswerReveal: questionsController is not assigned.");
+      return;
+    }
+
     const question = this.questions[questionIndex];
     if (!question) {
       log("AnswerReveal: no question at index " + questionIndex + ".");
@@ -69,14 +73,6 @@ export class AnswerReveal extends BaseScriptComponent {
       return;
     }
 
-    const controller = this.questionsController as any;
-    if (typeof controller.appendReveal !== "function") {
-      log(
-        "AnswerReveal: questionsController does not have appendReveal. Make sure it is RandomSliceQuestions.",
-      );
-      return;
-    }
-
-    controller.appendReveal(label);
+    this.questionsController.appendReveal(label);
   }
 }
