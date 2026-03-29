@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 73
+    size: 163
     values:
       - Behavior.lsc
       - Examples
@@ -67,13 +67,103 @@ CollapsedEntities:
       - "Resources/Prefabs/Result Prefabs [TRY_ME_IN_ResultsController]/Resources/Textures"
       - "Resources/Textures [EDIT_ME]/Echopark.hdr"
       - Scripts/Answer Picker
+      - Scripts/Audio
+      - "Scripts/Data [TRY_ME_TO_PROVIDE_QUIZ_DATA]"
       - "Scripts/Data [TRY_ME_TO_PROVIDE_QUIZ_DATA]/QuestionTableData.ts"
       - "Scripts/Data [TRY_ME_TO_PROVIDE_QUIZ_DATA]/ScriptQuizData [EDIT_ME].ts"
       - "Scripts/Declarations [Look here for scripts API]"
       - "Scripts/Decorations [TRY_ME]"
       - Scripts/Modules
-      - Scripts/View
+      - "Scripts/RandomSliceQuestions [TRY_ME].ts"
       - TweenManager.lspkg
       - TweenManager.lspkg/package.native
       - Untitled TypeScript.ts
+      - audio/q_000.mp3
+      - audio/q_001.mp3
+      - audio/q_002.mp3
+      - audio/q_003.mp3
+      - audio/q_004.mp3
+      - audio/q_005.mp3
+      - audio/q_006.mp3
+      - audio/q_007.mp3
+      - audio/q_008.mp3
+      - audio/q_009.mp3
+      - audio/q_010.mp3
+      - audio/q_011.mp3
+      - audio/q_012.mp3
+      - audio/q_013.mp3
+      - audio/q_014.mp3
+      - audio/q_015.mp3
+      - audio/q_016.mp3
+      - audio/q_017.mp3
+      - audio/q_018.mp3
+      - audio/q_019.mp3
+      - audio/q_020.mp3
+      - audio/q_021.mp3
+      - audio/q_022.mp3
+      - audio/q_023.mp3
+      - audio/q_024.mp3
+      - audio/q_025.mp3
+      - audio/q_026.mp3
+      - audio/q_027.mp3
+      - audio/q_028.mp3
+      - audio/q_029.mp3
+      - audio/q_030.mp3
+      - audio/q_031.mp3
+      - audio/q_032.mp3
+      - audio/q_033.mp3
+      - audio/q_034.mp3
+      - audio/q_035.mp3
+      - audio/q_036.mp3
+      - audio/q_037.mp3
+      - audio/q_038.mp3
+      - audio/q_039.mp3
+      - audio/q_040.mp3
+      - audio/q_041.mp3
+      - audio/q_042.mp3
+      - audio/q_043.mp3
+      - audio/q_044.mp3
+      - audio/q_045.mp3
+      - audio/q_046.mp3
+      - audio/q_047.mp3
+      - audio/q_048.mp3
+      - audio/q_049.mp3
+      - audio/q_050.mp3
+      - audio/q_051.mp3
+      - audio/q_052.mp3
+      - audio/q_053.mp3
+      - audio/q_054.mp3
+      - audio/q_055.mp3
+      - audio/q_056.mp3
+      - audio/q_057.mp3
+      - audio/q_058.mp3
+      - audio/q_059.mp3
+      - audio/q_060.mp3
+      - audio/q_061.mp3
+      - audio/q_062.mp3
+      - audio/q_063.mp3
+      - audio/q_064.mp3
+      - audio/q_065.mp3
+      - audio/q_066.mp3
+      - audio/q_067.mp3
+      - audio/q_068.mp3
+      - audio/q_069.mp3
+      - audio/q_070.mp3
+      - audio/q_071.mp3
+      - audio/q_072.mp3
+      - audio/q_073.mp3
+      - audio/q_074.mp3
+      - audio/q_075.mp3
+      - audio/q_076.mp3
+      - audio/q_077.mp3
+      - audio/q_078.mp3
+      - audio/q_079.mp3
+      - audio/q_080.mp3
+      - audio/q_081.mp3
+      - audio/q_082.mp3
+      - audio/q_083.mp3
+      - audio/q_084.mp3
+      - audio/q_085.mp3
+      - audio/q_086.mp3
+      - audio/q_087.mp3
   options: 4

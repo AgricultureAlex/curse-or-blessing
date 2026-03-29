@@ -37,6 +37,23 @@
   RenderPreviewOutput: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
   RenderOverlayOutput: !<reference> 4c3dc1f8-7dcd-48c4-85c5-1f91c3bdc407
   PhysicsRootWorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+- !<AudioComponent/0052e738-87ca-49c8-a250-de0492c3ff38>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 45a9aa46-e557-4c4a-a205-2718fe9d21d0
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScreenTransform/005a75b9-b7c1-47a7-9170-d92a9915712b>
   PrefabRemaps:
     []
@@ -151,6 +168,23 @@
     []
   Components:
     - !<own> ccae40a3-3547-42aa-b7eb-7fa3d1fa5a53
+- !<AudioComponent/0a0be468-5538-46fb-9483-150363785a5a>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 425deb74-82c4-4e3a-8aa6-b3ee556a9c3f
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/0a81605d-b024-4cd0-a3bc-5a0709a3cb80>
   PrefabRemaps:
     []
@@ -215,6 +249,23 @@
   MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
   RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
   DevicePropertiesSource: !<reference> 00000000-0000-0000-0000-000000000000
+- !<AudioComponent/0d0c0858-895d-45d2-bd81-943181116c44>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 9c670708-bc92-4450-bd21-41af0481ef5b
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScriptComponent/0d4d8c3a-ea5a-4f0e-bc49-43d92611ea3d>
   PrefabRemaps:
     []
@@ -336,6 +387,23 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<AudioComponent/10267ac2-4ec8-43c1-9b29-6cb51d2eb1c2>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 4aed38b9-0df2-4604-ba44-63e9baa94dc2
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScreenTransform/10c20cbc-49b4-4762-aba1-7ca58b1f1022>
   PrefabRemaps:
     []
@@ -400,6 +468,23 @@
   ScriptTypes:
     "":
       {}
+- !<AudioComponent/11e5160a-73b0-4ef1-9263-ebc45f012d99>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 1eed0db5-8d38-4e02-8f61-65bde8ed444e
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/1211fcfb-1c99-4db0-a1be-fec8c7b993a8>
   PrefabRemaps:
     []
@@ -591,6 +676,23 @@
     - !<own> 90d47ce3-ea97-4f09-bfcc-b3ad71d741c0
   Components:
     - !<own> 9abd1bc3-db25-4734-a902-f9385ec1a310
+- !<AudioComponent/156ad34d-1ff0-4221-a1d8-b3b6907df025>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 8706893c-dfd6-41f1-ab6e-0b4a4e512512
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/15a4f4b6-42b3-41f9-87f4-c897dd62bcfc>
   PrefabRemaps:
     []
@@ -836,6 +938,23 @@
     []
   Components:
     - !<own> 739f6326-41a3-4d99-bc26-137055de63a8
+- !<AudioComponent/18940ef2-e40c-4c95-b00f-1f76fef29688>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 0aaf8f5e-8c17-4a14-abbf-81afe605196f
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<Image/18e4c5ce-078b-4222-b000-71bc864d2a07>
   PrefabRemaps:
     []
@@ -1079,7 +1198,7 @@
     []
   Name: Audio
   Enabled: true
-  AudioTrack: !<reference> 00000000-0000-0000-0000-000000000000
+  AudioTrack: !<reference> 6dc05520-4876-44ae-ae25-81aa938689f7
   EnableAutoplayLoop: false
   Volume: 1.000000
   EnableMixToSnap: false
@@ -1499,6 +1618,23 @@
     - !<own> 366247ee-09d2-4cfb-9428-33ca756dd74a
   Components:
     []
+- !<AudioComponent/2347a8e8-2ba9-4123-9499-75f51980108a>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 3aaacf84-4452-469a-b98e-618b89e34414
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/23c8db11-ef21-48a0-ae8e-beb769552166>
   PrefabRemaps:
     []
@@ -1903,6 +2039,23 @@
   Components:
     - !<own> 548f5e9d-bc76-4afe-aa81-968ada4b30ef
     - !<own> 7d834aec-a869-429e-8527-52117770cdbb
+- !<AudioComponent/2a14d36c-9bba-44ac-a9f8-3d3303adeaba>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> a4798a56-d3cb-4119-97d4-f6840a21cf0c
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/2af5d404-ca32-4c76-8231-4f8ba91bc31b>
   PrefabRemaps:
     []
@@ -2039,6 +2192,23 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<AudioComponent/2c0cd642-4598-49a4-ab45-ad7d2128d3d6>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 98504447-e806-4600-97a3-148ee04970dd
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScriptComponent/2c456d1f-ffdf-44cd-b7ed-0ba640aca3c0>
   PrefabRemaps:
     []
@@ -2830,6 +3000,23 @@
   ScriptTypes:
     "":
       {}
+- !<AudioComponent/2f74baa1-5d1e-4f78-b458-8dbf4830ef20>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> c4fd71e8-928a-4b82-baec-c9b1221c9e2c
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScriptComponent/30acb4fe-1d80-4297-9996-3e82df738267>
   PrefabRemaps:
     []
@@ -2938,6 +3125,23 @@
   Components:
     - !<own> f415443e-1231-43d7-93c1-7b14b6e9f4a3
     - !<own> 6c3c761a-0daf-4f57-8d74-eaa8b9d2abaf
+- !<AudioComponent/33579d64-d386-46da-b5d6-371b5dcbc195>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 87c67151-110b-48e3-8837-3f6a1ef6e2fc
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScriptComponent/33808107-513d-4c05-87e4-55097443133c>
   PrefabRemaps:
     []
@@ -2958,6 +3162,23 @@
   ScriptTypes:
     "":
       {}
+- !<AudioComponent/33ff5f66-d109-4a56-92a4-cda06cbc7753>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 15dc2bce-5952-4cb5-9963-39b5cd4133ac
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScriptComponent/3445a8b7-f0e6-42cd-9e43-f25881686247>
   PrefabRemaps:
     []
@@ -2992,6 +3213,23 @@
     []
   Components:
     - !<own> e6abe31c-6d5b-4495-9a0e-b6cd35afd328
+- !<AudioComponent/345d0067-078d-4d84-a342-f96c2bf4746b>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 45ade6cc-b21f-4659-bfa7-c58fb3255011
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScriptComponent/35f5aadf-3e38-4087-9f23-b33ac90bf982>
   PrefabRemaps:
     []
@@ -3094,6 +3332,23 @@
     - !<own> 5b8e22d6-b007-4e29-ba08-7382ecd92636
   Components:
     []
+- !<AudioComponent/36c55c98-938b-43d9-a92e-17d0841653a4>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 02697be3-d685-4b0b-839d-c4445a9886e3
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/36d42ee3-3d6f-4e53-9ecc-86976bd6a08e>
   PrefabRemaps:
     []
@@ -3109,6 +3364,57 @@
     []
   Components:
     - !<own> 1188e2a1-2db3-4b41-9c22-31fed2db1ee9
+- !<AudioComponent/374eb460-4102-4943-9e8d-018770470f15>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> d9850c21-bdcf-4505-9144-0379af5b511c
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<AudioComponent/377d5183-203f-4b8a-ab57-2b8dd05da808>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 07a1a8c8-1ce9-475d-b49e-45c346920821
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<AudioComponent/39706977-5d5f-463e-8499-2dcf8e48064a>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 00b6176d-7d97-41ba-b28e-3d1da2e315d2
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScriptComponent/39d308dc-5677-4289-9d35-995532c2a436>
   PrefabRemaps:
     []
@@ -3242,6 +3548,23 @@
   Components:
     - !<own> 5a67e96b-4377-4dcc-99d0-46c5ce186a4b
     - !<own> fd168317-251a-4401-97e0-e5b6e11540f0
+- !<AudioComponent/3bfe583b-d73a-4d76-93f2-edd369850956>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> c5226b34-a673-4885-8416-efabf6444ea5
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<Image/3c8fd666-4f8b-4b84-8f26-dd9b0b55bccd>
   PrefabRemaps:
     []
@@ -3290,6 +3613,40 @@
   ShadowDensity: 1.000000
   Materials:
     - !<reference> 24955644-d6e1-4ca7-a6b8-37dfa49b7110
+- !<AudioComponent/3ce647f4-90d7-4427-aeb8-de71c78a6ef9>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 3a7dfb0b-3231-4a8d-8da9-58f5c365ba7a
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<AudioComponent/3de29947-a23f-4760-a00b-028e19178560>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 53a21ee3-a17c-415b-824e-3b92dc2424df
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/3e7c2195-4744-4350-8fbf-f15a3dd72ded>
   PrefabRemaps:
     []
@@ -3307,6 +3664,23 @@
     - !<own> a4aafe47-cb57-48c9-ae28-12213cc4b0e3
   Components:
     - !<own> 0d09197f-b000-4f6a-a991-cd2cc87903f3
+- !<AudioComponent/3f6eb4b8-aed5-43f4-b522-005a941f9285>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 0e5df35f-cc2d-428f-b058-d56cc7f9f2e3
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScriptComponent/3fef984b-bba3-433e-916f-e30744616a07>
   PrefabRemaps:
     []
@@ -3362,6 +3736,23 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<AudioComponent/40c02161-8ec8-44b5-b21a-397d1cb439bb>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 4a35abab-f17f-4585-915b-221174eb22b3
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<Camera/4109d67e-4238-4b31-b2dc-9c1902af4eaa>
   PrefabRemaps:
     []
@@ -3408,6 +3799,23 @@
     []
   Components:
     - !<own> 30acb4fe-1d80-4297-9996-3e82df738267
+- !<AudioComponent/4254ed87-7816-4c7a-9bed-1bb0e0014f36>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 0f8ea5a8-89fa-460b-9409-29e6d6fd7e3a
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/4346d4b6-98ef-4bbf-a677-ff35bfacb0d9>
   PrefabRemaps:
     []
@@ -3653,6 +4061,23 @@
   Components:
     - !<own> e073b225-a964-4b77-b678-7fa8f8198aae
     - !<own> 18e4c5ce-078b-4222-b000-71bc864d2a07
+- !<AudioComponent/4c97970b-3994-4a66-a605-c8ac0266bea7>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 1b03a856-6b95-4f18-bf1f-a624fad8f5f6
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScreenTransform/4e4c45a8-1276-46b5-8a63-63b748c2f7d7>
   PrefabRemaps:
     []
@@ -3710,6 +4135,23 @@
   ScriptTypes:
     "":
       {}
+- !<AudioComponent/4f481794-16a5-4ccf-8df2-fac4f330692b>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 851cacc4-8783-4649-947f-31dcab4ccf1e
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<Camera/50013c0a-da84-4a15-a215-a261e65fa4e8>
   PrefabRemaps:
     []
@@ -3757,6 +4199,40 @@
   ScriptTypes:
     "":
       {}
+- !<AudioComponent/5107bb6b-f967-4629-b41d-00a35e17a833>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> a643c9fd-3d98-413b-81fe-d621e6b8d6d3
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<AudioComponent/529ccb82-675b-4ed6-a954-cde873eb89f7>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 9b2961a6-d318-48c4-99f0-870bfce4ba4d
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/538f123d-4f35-461e-ac76-9e43d99e0301>
   PrefabRemaps:
     []
@@ -3797,6 +4273,57 @@
     - !<own> 10d1cb43-b8c5-44b0-9cf9-9f17460ae00d
   Components:
     - !<own> dba4fc48-276d-4c31-a735-535163fd03a5
+- !<AudioComponent/55a333c0-6473-47c7-b677-be59122428a3>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 3a9733df-12fc-449e-980a-6cfcc1d72e8c
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<AudioComponent/56627648-b3f3-4aa4-a108-77a354a7ca7f>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> c738683e-5689-452e-8309-ef3ec98abf1c
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<AudioComponent/58883f0b-956a-4c2a-923e-a5ca30d13b77>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 51064281-715a-4c38-b0af-ea3f2d1c2997
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<Image/5935cd40-83d6-4609-814b-3f1e45be1165>
   PrefabRemaps:
     []
@@ -4727,6 +5254,23 @@
     CapitalizationOverride: None
   DepthTest: false
   TwoSided: false
+- !<AudioComponent/5d2a0377-3d65-4644-accc-bedae5f9e860>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> dcb58e95-0311-4349-8f0a-9954f735f3ea
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<Image/5e3c1b2a-0f5f-4345-b179-0aebc970d12f>
   PrefabRemaps:
     []
@@ -4854,6 +5398,23 @@
     []
   Components:
     - !<own> d5fbe171-2a10-4fe4-b928-d6bb9a37e22c
+- !<AudioComponent/62965d42-f037-4c5a-a72b-159d4e4e2413>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 2503899b-1d54-42fb-a31e-7e71bd83910e
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/634d5274-ffd3-4ad0-8968-4e69656b39ab>
   PrefabRemaps:
     []
@@ -5098,6 +5659,40 @@
     []
   Components:
     - !<own> 2afc3cc4-2314-4ed0-a631-853d7c592086
+- !<AudioComponent/671a102e-305c-4354-a517-f6a4602236b8>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> d59fb973-e068-4385-8ebe-2e2c64d76886
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<AudioComponent/67b08b8c-1d9e-4d8d-a90a-2e0a137850b9>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 0f30dabb-0935-4820-bc40-a9510ba8ade8
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/67b564f8-15ef-4177-96a5-631b93c6ba01>
   PrefabRemaps:
     []
@@ -5183,6 +5778,23 @@
     []
   Components:
     - !<own> 2c456d1f-ffdf-44cd-b7ed-0ba640aca3c0
+- !<AudioComponent/6c1fc187-c073-480d-9a03-82819eaf26d2>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> aff4022f-6f2c-4abf-8b39-57057df1f64a
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScreenTransform/6c3c761a-0daf-4f57-8d74-eaa8b9d2abaf>
   PrefabRemaps:
     []
@@ -5332,6 +5944,43 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<AudioComponent/6e185dcd-db5c-47cd-b769-fd905fa0ec3b>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> bc3c0202-ce4d-4412-82a2-cabf19a5f6cc
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<ScriptComponent/6e25fde0-ea9c-4bd0-89dd-4e22e8db3b7c>
+  PrefabRemaps:
+    []
+  Name: QuestionAudioPlayer
+  Enabled: true
+  ScriptAsset: !<reference> eee14af9-870e-4195-aebf-e58d54149e92
+  ScriptInputsDefault:
+    audioTracks: true
+    delaySeconds: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      audioComponent: !<reference.AudioComponent> 1d990328-8e9b-499c-945b-9719e8a05de6
+      audioTracks: !<reference.AudioTrackAsset[]>
+        []
+      delaySeconds: !<float> 0.000000
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/6f29fb37-1baf-4e5b-aa58-a8bfa33d47ef>
   PrefabRemaps:
     []
@@ -5379,6 +6028,23 @@
   ScriptTypes:
     "":
       {}
+- !<AudioComponent/731103ce-630c-4568-a98a-d347776ee9f1>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> a38d6494-812a-4c8f-a96a-79c7371b0432
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScriptComponent/739f6326-41a3-4d99-bc26-137055de63a8>
   PrefabRemaps:
     []
@@ -5406,6 +6072,23 @@
   Enabled: true
   ScreenRegionType: SafeRender
   ResizeWithKeyboard: false
+- !<AudioComponent/74447631-efa4-4e26-9430-58831e5cd0a5>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 6424c51c-d9bc-4f75-bda0-9dd721dac978
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/74a85258-6798-4302-bd50-4d1641b4124e>
   PrefabRemaps:
     []
@@ -5423,6 +6106,23 @@
     - !<own> 79053887-0c72-488b-ae9a-62df80876422
     - !<own> cafeeec2-20bc-43d6-8d64-52ecfbac87aa
     - !<own> cf5592be-5b70-4f57-abd3-937197dbbbf7
+- !<AudioComponent/74cf68c7-b43d-41ae-a68f-d652453d41f8>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 1846b233-7669-4775-9cbb-0e371220c4fb
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScreenTransform/75f6a947-55bd-4762-873b-93f0c90a9fff>
   PrefabRemaps:
     []
@@ -5510,6 +6210,40 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<AudioComponent/77fa9bf9-5958-4ace-b6e2-7e3a4bab3d7e>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 08d052ba-89c4-4efb-94dd-cb2f19ce8076
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<AudioComponent/7811151a-9451-4a9e-8542-07db618a5d7f>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 9e698199-4f3b-4bbe-9009-0d983f95ed19
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScreenTransform/79053887-0c72-488b-ae9a-62df80876422>
   PrefabRemaps:
     []
@@ -5671,6 +6405,23 @@
     bottom: 0.000000
     right: 0.000000
     top: -2.096653
+- !<AudioComponent/7cf24b9f-a750-4768-89f6-3e8d6e2bcd9e>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 7ca06c87-89a2-4e5d-9031-b907b5bfce8a
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/7d3c38a7-f42c-41c1-9258-ed60f0fb4fab>
   PrefabRemaps:
     []
@@ -5687,6 +6438,23 @@
     - !<own> cc2037ac-488d-4ac7-ae9d-c21b4c9d8548
   Components:
     - !<own> cd8a40a9-4831-4179-bd0a-a0eedad8b517
+- !<AudioComponent/7d4b38bc-1531-49c2-ae8b-9f8ff1d9a508>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> e9289e20-2692-4702-9a87-1bc31c237f39
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScreenTransform/7d834aec-a869-429e-8527-52117770cdbb>
   PrefabRemaps:
     []
@@ -5720,6 +6488,23 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<AudioComponent/7e83f34c-6f15-42ff-a32f-cae2322bb177>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> e5f38081-5ec3-4118-9560-d4e6a1460c14
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<RetouchVisual/7ffc7ab7-3703-42c8-a1f9-59756f2be212>
   PrefabRemaps:
     []
@@ -5839,6 +6624,23 @@
     - !<own> a19cf80a-1454-472b-a993-062548061be3
   Components:
     - !<own> 9bc94309-9d45-47e8-8c5b-b192672d3b93
+- !<AudioComponent/802d3f9f-bb0c-48ba-b8d2-3abd013469d5>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 73a85d6f-6e85-47b7-8742-0f27f762c8fa
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/807bdc16-702e-4873-afa0-4cd82de1a1b6>
   PrefabRemaps:
     []
@@ -5855,6 +6657,23 @@
   Components:
     - !<own> bb0b77e8-7daf-45eb-8283-464a5ca70b95
     - !<own> 952b3998-687c-47ab-8a7d-c7d15a2be1e5
+- !<AudioComponent/80bf68ad-9d13-4962-b60e-228f593bbd97>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 7414cf33-212a-4cfd-9cda-90d19200ced5
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<Text/812f7660-df7d-4468-961b-70042621fc8f>
   PrefabRemaps:
     []
@@ -5984,6 +6803,23 @@
   ScriptTypes:
     "":
       {}
+- !<AudioComponent/82a86e94-3deb-4b93-ace9-0eb818d5cb43>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 76cf0a1f-071c-47a9-97b6-3c34442b6e1f
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/8501a195-328e-4a6d-bd82-1a79268557ea>
   PrefabRemaps:
     - 054139e2-8783-4ae9-8c7b-aa75403c6c0b: ca0a5d46-52e4-4813-687f-06eb20cf4f92
@@ -6474,6 +7310,23 @@
     []
   Components:
     - !<own> 0db8a0ff-378c-4ca6-9c58-4337445020b2
+- !<AudioComponent/8cefd80d-2181-4bb0-b9c7-17c8b0423ddd>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> a606ee3d-9a1f-49a6-9045-04aad832f924
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/8d6508e6-7743-4598-8e1c-d210b4ff2d0a>
   PrefabRemaps:
     []
@@ -6489,6 +7342,23 @@
     []
   Components:
     - !<own> 23f4fe0f-0661-4ac1-82af-1c5674a49abe
+- !<AudioComponent/8e405116-ccc4-4109-80a1-be2e67df0861>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 0079154a-f76d-4f84-a2a9-ed4236c36e9c
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScriptComponent/8e67cf54-61aa-4409-afca-d05c64c39c0c>
   PrefabRemaps:
     []
@@ -6561,6 +7431,23 @@
   ScriptTypes:
     "":
       {}
+- !<AudioComponent/8f4af306-d078-4a74-89e8-3a3aeafad927>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> de127aaa-2695-4d50-b4de-6961e67dfbca
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScriptComponent/8f5dcc31-06f2-491f-8572-9b8f3bc99ab8>
   PrefabRemaps:
     []
@@ -6799,6 +7686,23 @@
   Components:
     - !<own> e5605dc9-419b-4bf2-860f-b28c85193740
     - !<own> eab8da49-d776-4848-bec2-451f31e8cf0a
+- !<AudioComponent/90900dc3-bbc3-45c2-96e9-927523ea8f4b>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 7427afed-a10e-4958-8dc3-7e8670852964
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/90d47ce3-ea97-4f09-bfcc-b3ad71d741c0>
   PrefabRemaps:
     []
@@ -6815,6 +7719,23 @@
   Components:
     - !<own> a65cb486-eb4c-4b2b-8075-6d7d62dc3734
     - !<own> c3c65615-1555-4ee8-a356-c4c1bcc26c00
+- !<AudioComponent/912e8b4a-cba0-4aa1-8c01-441306c2cc57>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 218d6201-1d84-4ed4-946d-feea4de13832
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<Image/913f1699-8be1-4dfc-828f-24498cab0397>
   PrefabRemaps:
     []
@@ -7042,6 +7963,23 @@
     - !<own> f780013a-5c00-4a77-b6b1-5a4a4cba9676
   Components:
     - !<own> f5c67130-78d1-49b2-8129-ad3012cbef93
+- !<AudioComponent/9451be7e-b773-40d8-8090-7a4a9a0cbe16>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 26f3a300-f2a0-438b-b046-4beca85f2468
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScreenTransform/95198996-8ed4-4076-ac5a-713935167e67>
   PrefabRemaps:
     []
@@ -7141,6 +8079,23 @@
     bottom: 0.000000
     right: 0.000000
     top: -0.995764
+- !<AudioComponent/95371edf-c735-476e-8963-7e3054af822f>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 5479eba4-c183-47cd-b246-0323dfa7a481
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/95424cec-c957-4db4-9c06-695df242a1ec>
   PrefabRemaps:
     []
@@ -7724,6 +8679,23 @@
     - !<own> 8d6508e6-7743-4598-8e1c-d210b4ff2d0a
   Components:
     []
+- !<AudioComponent/a0fbb82a-9732-47a7-8c3d-87891bb62c31>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> a69faab9-cfda-4200-9641-5ab541a93d80
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/a19cf80a-1454-472b-a993-062548061be3>
   PrefabRemaps:
     []
@@ -7762,6 +8734,23 @@
   Enabled: true
   ScreenRegionType: FullFrame
   ResizeWithKeyboard: false
+- !<AudioComponent/a1ce588d-b2b2-4e1e-a7eb-ac74e5af26f8>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 37f74e9c-d994-4e22-9bcd-44728494db2c
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/a2490c27-2d25-4527-a9ba-d4f135cbf66a>
   PrefabRemaps:
     []
@@ -8001,6 +8990,23 @@
     CapitalizationOverride: None
   DepthTest: false
   TwoSided: false
+- !<AudioComponent/a97ea6cd-3979-468b-9b25-2c0293001db7>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> b0762d68-b32e-4088-910d-4bb65e43d17e
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/a9c197c2-6c7c-42d1-ba80-5ddff9e55dca>
   PrefabRemaps:
     []
@@ -8235,6 +9241,23 @@
     CapitalizationOverride: None
   DepthTest: false
   TwoSided: false
+- !<AudioComponent/ab7f8eff-27fd-4e2c-ad01-9f91427f99bc>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 37730b85-bddd-4918-8a4d-e3234e8d0583
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/ac8d8bc1-e898-4db3-8f27-38d6aed1b042>
   PrefabRemaps:
     []
@@ -8335,6 +9358,23 @@
       - 0.500000
       - 0.500000
   TrackingScope: !<reference> 00000000-0000-0000-0000-000000000000
+- !<AudioComponent/b07461b9-ad1c-42b3-a544-e02dc2c3b779>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 1461927b-9355-426e-a129-d5da196d473b
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/b0a5396e-3405-4d65-aab9-74c38245ac71>
   PrefabRemaps:
     []
@@ -8351,6 +9391,40 @@
   Components:
     - !<own> 16641306-fc81-4768-b6da-f0b1fe019958
     - !<own> cd8801de-6cb1-45ec-ad3d-cd1f7feb26aa
+- !<AudioComponent/b0d83eb6-0b45-4262-9be3-f658e7f2b61f>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> ae5d2e91-6524-47d1-ba00-286351e85552
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<AudioComponent/b0eb14ef-d4bb-41d5-a46b-4d1c9849eafc>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> f4834cb0-78d9-46d8-8738-853c16f71c67
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/b20ca164-69e2-4e3b-9916-0e6793d64fd7>
   PrefabRemaps:
     []
@@ -8622,6 +9696,23 @@
   Components:
     - !<own> 50013c0a-da84-4a15-a215-a261e65fa4e8
     - !<own> d7d19c95-56ba-4b25-9e04-6db725d07346
+- !<AudioComponent/baedd43a-adf9-4dc3-9f1e-af3a2d9801fc>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 43e20f0e-a183-4f10-bcb7-3fd21c7a9acd
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScreenTransform/baf479f2-8a54-44c0-81c4-b831b44ce580>
   PrefabRemaps:
     []
@@ -8923,7 +10014,7 @@
 - !<SceneObject/bfa91e4f-a9d1-40ae-a9db-b37397f6a55d>
   PrefabRemaps:
     []
-  Name: Question Audio
+  Name: QuestionAudioPlayer
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
@@ -8934,7 +10025,95 @@
   Children:
     []
   Components:
+    - !<own> 6e25fde0-ea9c-4bd0-89dd-4e22e8db3b7c
     - !<own> 1d990328-8e9b-499c-945b-9719e8a05de6
+    - !<own> 0a0be468-5538-46fb-9483-150363785a5a
+    - !<own> 529ccb82-675b-4ed6-a954-cde873eb89f7
+    - !<own> 912e8b4a-cba0-4aa1-8c01-441306c2cc57
+    - !<own> 6e185dcd-db5c-47cd-b769-fd905fa0ec3b
+    - !<own> baedd43a-adf9-4dc3-9f1e-af3a2d9801fc
+    - !<own> 3de29947-a23f-4760-a00b-028e19178560
+    - !<own> fec69b11-a91e-42b7-8963-0408a9ce9bf5
+    - !<own> 8e405116-ccc4-4109-80a1-be2e67df0861
+    - !<own> 4254ed87-7816-4c7a-9bed-1bb0e0014f36
+    - !<own> 345d0067-078d-4d84-a342-f96c2bf4746b
+    - !<own> d0c33283-cdf2-45fb-a59d-39964ad75fbf
+    - !<own> 6c1fc187-c073-480d-9a03-82819eaf26d2
+    - !<own> 3f6eb4b8-aed5-43f4-b522-005a941f9285
+    - !<own> f1740110-9d9a-42b0-ad5a-99d42c657b1b
+    - !<own> d37c9e96-7ca4-4285-b078-62fef701a55b
+    - !<own> 74447631-efa4-4e26-9430-58831e5cd0a5
+    - !<own> d044b27a-0372-45be-a813-07f10d8afbe9
+    - !<own> 671a102e-305c-4354-a517-f6a4602236b8
+    - !<own> 2c0cd642-4598-49a4-ab45-ad7d2128d3d6
+    - !<own> 5107bb6b-f967-4629-b41d-00a35e17a833
+    - !<own> b07461b9-ad1c-42b3-a544-e02dc2c3b779
+    - !<own> 4c97970b-3994-4a66-a605-c8ac0266bea7
+    - !<own> 2f74baa1-5d1e-4f78-b458-8dbf4830ef20
+    - !<own> 36c55c98-938b-43d9-a92e-17d0841653a4
+    - !<own> 82a86e94-3deb-4b93-ace9-0eb818d5cb43
+    - !<own> 8f4af306-d078-4a74-89e8-3a3aeafad927
+    - !<own> a1ce588d-b2b2-4e1e-a7eb-ac74e5af26f8
+    - !<own> 10267ac2-4ec8-43c1-9b29-6cb51d2eb1c2
+    - !<own> 18940ef2-e40c-4c95-b00f-1f76fef29688
+    - !<own> efefe92a-7ddc-43fe-9d1f-bac6332551ce
+    - !<own> 33579d64-d386-46da-b5d6-371b5dcbc195
+    - !<own> 55a333c0-6473-47c7-b677-be59122428a3
+    - !<own> ec6decae-7919-4166-9374-82caa997367e
+    - !<own> 7811151a-9451-4a9e-8542-07db618a5d7f
+    - !<own> 80bf68ad-9d13-4962-b60e-228f593bbd97
+    - !<own> ab7f8eff-27fd-4e2c-ad01-9f91427f99bc
+    - !<own> 11e5160a-73b0-4ef1-9263-ebc45f012d99
+    - !<own> c6b3baaf-4616-4413-b9d1-6c9d80a59f8d
+    - !<own> 2347a8e8-2ba9-4123-9499-75f51980108a
+    - !<own> a0fbb82a-9732-47a7-8c3d-87891bb62c31
+    - !<own> f1aaba12-8846-46a5-b804-6e843654fb58
+    - !<own> efe43ab0-cfa2-47a5-b9c3-7d1485dd7096
+    - !<own> 67b08b8c-1d9e-4d8d-a90a-2e0a137850b9
+    - !<own> 40c02161-8ec8-44b5-b21a-397d1cb439bb
+    - !<own> 56627648-b3f3-4aa4-a108-77a354a7ca7f
+    - !<own> d4336b7c-6ffb-4b00-8fa8-8e3651502e21
+    - !<own> 156ad34d-1ff0-4221-a1d8-b3b6907df025
+    - !<own> de9c96af-78e2-4b08-9c62-afdc6ada7ff0
+    - !<own> 3ce647f4-90d7-4427-aeb8-de71c78a6ef9
+    - !<own> f08990be-de0a-46b4-9b9f-92b1e60ec68c
+    - !<own> 5d2a0377-3d65-4644-accc-bedae5f9e860
+    - !<own> 95371edf-c735-476e-8963-7e3054af822f
+    - !<own> 731103ce-630c-4568-a98a-d347776ee9f1
+    - !<own> 374eb460-4102-4943-9e8d-018770470f15
+    - !<own> 7d4b38bc-1531-49c2-ae8b-9f8ff1d9a508
+    - !<own> b0eb14ef-d4bb-41d5-a46b-4d1c9849eafc
+    - !<own> 58883f0b-956a-4c2a-923e-a5ca30d13b77
+    - !<own> 62965d42-f037-4c5a-a72b-159d4e4e2413
+    - !<own> 90900dc3-bbc3-45c2-96e9-927523ea8f4b
+    - !<own> db0d6964-7013-45e4-8dba-7f74609bc57e
+    - !<own> 0d0c0858-895d-45d2-bd81-943181116c44
+    - !<own> 3bfe583b-d73a-4d76-93f2-edd369850956
+    - !<own> d8647e76-43b5-463f-8619-445cea70a6d1
+    - !<own> f1517843-5934-4597-bc89-e388f7340169
+    - !<own> c591525f-ab27-4bb7-a7fe-27427467645f
+    - !<own> 74cf68c7-b43d-41ae-a68f-d652453d41f8
+    - !<own> 33ff5f66-d109-4a56-92a4-cda06cbc7753
+    - !<own> 802d3f9f-bb0c-48ba-b8d2-3abd013469d5
+    - !<own> b0d83eb6-0b45-4262-9be3-f658e7f2b61f
+    - !<own> 9451be7e-b773-40d8-8090-7a4a9a0cbe16
+    - !<own> e9d69bb0-b170-44f6-b616-6cda954fff49
+    - !<own> 8cefd80d-2181-4bb0-b9c7-17c8b0423ddd
+    - !<own> 77fa9bf9-5958-4ace-b6e2-7e3a4bab3d7e
+    - !<own> 0052e738-87ca-49c8-a250-de0492c3ff38
+    - !<own> a97ea6cd-3979-468b-9b25-2c0293001db7
+    - !<own> e07df4f7-e20a-4761-af83-f6e6a76a28c7
+    - !<own> e02c596f-6fa2-4925-83e7-e6941b22d84b
+    - !<own> 2a14d36c-9bba-44ac-a9f8-3d3303adeaba
+    - !<own> 7e83f34c-6f15-42ff-a32f-cae2322bb177
+    - !<own> cb570d3a-2397-4a3f-91e2-9d6ed9ca66f6
+    - !<own> 4f481794-16a5-4ccf-8df2-fac4f330692b
+    - !<own> 7cf24b9f-a750-4768-89f6-3e8d6e2bcd9e
+    - !<own> ca0ebcb1-dfcd-4708-9abb-305d5a518224
+    - !<own> 39706977-5d5f-463e-8499-2dcf8e48064a
+    - !<own> 377d5183-203f-4b8a-ab57-2b8dd05da808
+    - !<own> cb857ee8-1b75-4088-92e2-de93c0cf53c2
+    - !<own> c02e1b07-a27b-446e-98d7-3300195a1b6a
 - !<SceneObject/bfde70cd-fa90-435e-a78f-c10d2da2b4a2>
   PrefabRemaps:
     []
@@ -8974,6 +10153,23 @@
     - !<own> 95424cec-c957-4db4-9c06-695df242a1ec
   Components:
     - !<own> a025c381-5b9f-4421-a3b5-06fa86286f42
+- !<AudioComponent/c02e1b07-a27b-446e-98d7-3300195a1b6a>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 87d0517f-d8ae-4fe7-885a-151c68b14b7e
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScreenTransform/c0465a6f-2f3f-4a5b-a4d7-ee8b2aef15d6>
   PrefabRemaps:
     []
@@ -9106,6 +10302,23 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<AudioComponent/c591525f-ab27-4bb7-a7fe-27427467645f>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> a6b12c8f-4ad3-4a26-bedf-d591ae6fd6bf
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/c657c73a-eb51-431c-bab0-20c85ed7fbf6>
   PrefabRemaps:
     []
@@ -9145,6 +10358,23 @@
   ScriptTypes:
     "":
       {}
+- !<AudioComponent/c6b3baaf-4616-4413-b9d1-6c9d80a59f8d>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> b39b096a-54c7-48df-83ee-999d6965fc6f
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/c7f6531e-c8fb-4ad4-ba07-15e6ac038aa5>
   PrefabRemaps:
     []
@@ -9850,6 +11080,23 @@
   Components:
     - !<own> 2116ab08-6775-4d05-8d5e-d35de62d7972
     - !<own> 14bd94f0-4eed-48b8-bb89-74e7b536b262
+- !<AudioComponent/ca0ebcb1-dfcd-4708-9abb-305d5a518224>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> e8b30d09-632e-44a4-a5d4-3001cefc468c
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/ca1eaf80-562f-4927-ad6e-f98a0c67814f>
   PrefabRemaps:
     []
@@ -9885,6 +11132,40 @@
   RotationAngle: 0
   Pivot: {x: 0.000000, y: 0.000000}
   ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<AudioComponent/cb570d3a-2397-4a3f-91e2-9d6ed9ca66f6>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> f5b76a08-6fd9-40ee-8ef9-f92c8ab30fce
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<AudioComponent/cb857ee8-1b75-4088-92e2-de93c0cf53c2>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> f2c1f654-3270-43cc-b1c0-80dd4e43a6ab
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<Image/cb926852-3a59-4448-9cd8-ddd47e6fee5c>
   PrefabRemaps:
     []
@@ -10837,6 +12118,23 @@
   ScriptTypes:
     "":
       {}
+- !<AudioComponent/d044b27a-0372-45be-a813-07f10d8afbe9>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> a750d7d4-6f29-4f32-9cca-81a860b2c350
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/d07a75e0-e334-40bf-bcc2-8c5ba0109318>
   PrefabRemaps:
     []
@@ -10853,6 +12151,23 @@
   Components:
     - !<own> b228ae45-c8d6-4843-93b8-2fc355f73b1e
     - !<own> 9f33cc01-e10a-47fd-a771-a5ce7f276dac
+- !<AudioComponent/d0c33283-cdf2-45fb-a59d-39964ad75fbf>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 635d7c02-9c0a-45f3-b511-0b64cab6c8f3
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<Image/d1a1d258-89c4-49c3-b331-b6d19276355b>
   PrefabRemaps:
     []
@@ -10887,6 +12202,23 @@
     []
   Components:
     - !<own> c9cf6356-d249-42b9-a7b3-0a5f688e64f9
+- !<AudioComponent/d37c9e96-7ca4-4285-b078-62fef701a55b>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 8f91b155-8092-4dd2-8213-92863a3cc0b3
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/d3c5b3c9-8fc9-4ac5-a403-e85752981532>
   PrefabRemaps:
     []
@@ -10904,6 +12236,23 @@
     - !<own> 9f741615-97f4-4a1b-bb68-0e1e38d2dd1c
   Components:
     []
+- !<AudioComponent/d4336b7c-6ffb-4b00-8fa8-8e3651502e21>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 983e3a79-d1d9-42d7-b907-5276d019e8ae
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<Image/d48796ca-62d3-4705-8724-a90fa793d1cb>
   PrefabRemaps:
     []
@@ -11211,6 +12560,23 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<AudioComponent/d8647e76-43b5-463f-8619-445cea70a6d1>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 180bef52-9f81-4c3c-adae-e7c631f0a0f0
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScriptComponent/d96ba6aa-99b7-41f4-bd81-74da8792bb7f>
   PrefabRemaps:
     []
@@ -11292,6 +12658,23 @@
     []
   Components:
     - !<own> 274c271f-9fba-4276-8efe-f29cddff0c81
+- !<AudioComponent/db0d6964-7013-45e4-8dba-7f74609bc57e>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> e08c9664-0094-4d2d-bd00-a89d7ba39fb3
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/db9e64f2-1cfd-4846-abb0-330dc2a183c7>
   PrefabRemaps:
     []
@@ -11373,6 +12756,23 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<AudioComponent/de9c96af-78e2-4b08-9c62-afdc6ada7ff0>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 3d3d0283-a0e6-47c1-ac3a-36caf7b4ca0d
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<PostEffectVisual/df320b9c-b731-4ce1-9ec2-bfedf14e8089>
   PrefabRemaps:
     []
@@ -11387,6 +12787,23 @@
   ShadowDensity: 1.000000
   Materials:
     - !<reference> 9acefce2-ba2a-40a4-aa85-d4628a4a6f30
+- !<AudioComponent/e02c596f-6fa2-4925-83e7-e6941b22d84b>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 068b412f-8fd8-44ef-a9db-40191ad63b70
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScreenTransform/e073b225-a964-4b77-b678-7fa8f8198aae>
   PrefabRemaps:
     []
@@ -11420,6 +12837,23 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<AudioComponent/e07df4f7-e20a-4761-af83-f6e6a76a28c7>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> ee49e0ed-77d2-486c-89a7-08887b7d3b83
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScreenTransform/e0af7dd2-5804-4110-9c2a-89eaf01175f4>
   PrefabRemaps:
     []
@@ -11657,6 +13091,23 @@
   Components:
     - !<own> 47440859-709f-440a-bdf5-49bfcf882cda
     - !<own> 87cd1425-8c64-40ae-b58d-a4bd62929af5
+- !<AudioComponent/e9d69bb0-b170-44f6-b616-6cda954fff49>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> ed6d3257-997f-4099-9c57-381c6eec7b5b
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScreenTransform/eab8da49-d776-4848-bec2-451f31e8cf0a>
   PrefabRemaps:
     []
@@ -11719,6 +13170,23 @@
     []
   Components:
     - !<own> a9f409cd-8cc8-48e2-bf6e-8808222785d3
+- !<AudioComponent/ec6decae-7919-4166-9374-82caa997367e>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> ababec96-9690-43b2-a8bc-abae20cf9bba
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<PostEffectVisual/ecf3521e-3210-45b6-81de-26e31c969c42>
   PrefabRemaps:
     []
@@ -11794,6 +13262,108 @@
     []
   Components:
     - !<own> 9778793f-dc73-4495-8f48-74e1e13fbd36
+- !<AudioComponent/efe43ab0-cfa2-47a5-b9c3-7d1485dd7096>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 2c82981f-df30-4e40-8b79-5ea4cfbcf611
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<AudioComponent/efefe92a-7ddc-43fe-9d1f-bac6332551ce>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 71346907-f437-44e8-8145-76cc6f63a9db
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<AudioComponent/f08990be-de0a-46b4-9b9f-92b1e60ec68c>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> fb1ecfe2-1ddf-42f2-94b1-7d72e4d65378
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<AudioComponent/f1517843-5934-4597-bc89-e388f7340169>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 7f2eea07-5fae-4998-8b73-db2070caae1e
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<AudioComponent/f1740110-9d9a-42b0-ad5a-99d42c657b1b>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 98578ecb-7625-4ab6-9694-3a63efd679eb
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<AudioComponent/f1aaba12-8846-46a5-b804-6e843654fb58>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 836d65a4-c0ed-42c7-8bbb-826e1be7d849
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<Text/f32c8dfb-dd54-4862-9d04-0d8b3d3dc655>
   PrefabRemaps:
     []
@@ -12251,6 +13821,23 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<AudioComponent/fec69b11-a91e-42b7-8963-0408a9ce9bf5>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> c118f7ba-b16c-4327-88c7-b0585c3a6084
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<PostEffectVisual/ff6190b1-dbff-4883-b108-3827a6cc2f35>
   PrefabRemaps:
     []
@@ -12277,7 +13864,6 @@
     onQuizDataAvailable: true
     onIntroHidden: true
     onQuestionsShown: true
-    onNextQuestion: true
     onAnswer: true
     onQuestionsHidden: true
     onResultShown: true
@@ -12297,7 +13883,12 @@
       onQuestionsShown:
         []
       onNextQuestion:
-        []
+        - kind: Script method
+          customTrigger: ""
+          behaviorScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+          script: !<reference.ScriptComponent> 6e25fde0-ea9c-4bd0-89dd-4e22e8db3b7c
+          methodName: playForQuestion
+          onApi: false
       onAnswer:
         []
       onQuestionsHidden:

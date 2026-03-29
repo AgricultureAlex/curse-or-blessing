@@ -1,3 +1,6 @@
 order:
   - Default
+  - Default 4
+  - Default 2
+  - Default 3
 current: Default

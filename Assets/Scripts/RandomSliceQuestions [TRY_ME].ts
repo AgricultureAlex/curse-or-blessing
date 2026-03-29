@@ -1,4 +1,4 @@
-import { log } from './Modules/Utils';
+        import { log } from './Modules/Utils';
 
 /**
  * A questions controller, that displays only a part of questions in random order per round.
